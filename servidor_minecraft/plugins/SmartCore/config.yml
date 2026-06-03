@@ -1,0 +1,155 @@
+enabledPlaceholder: Enabled
+disabledPlaceholder: Disabled
+
+# Allows the use of colors in anvils
+# Permissions: smartcore.anvilcolors.use
+anvilColors:
+  enabled: true
+
+# Adds autocomplete for specific custom commands
+autoComplete:
+  enabled: true
+  commands:
+  - battlepass
+
+# Allows the use of totems without requiring them to be in the off hand
+# Permissions: smartcore.autototem.use
+autoTotem:
+  enabled: true
+  default: true
+  firstTimeMessage: '&f &fPuede alternar el tótem automático usando &e/autototem&f'
+  enabledMessage: '&f &fHas &ehabilitado&f tótem automático'
+  disabledMessage: '&f &fHas &edhabilitado&f tótem automático'
+  noPermissionMessage: '&f &fNo tiene permiso para usar este comando.'
+
+# Allows opening two connected doors at the same time and iron doors
+# Permissions: smartcore.doubledoors.open, smartcore.doubledoors.iron_doors
+doubleDoors:
+  enabled: true
+  default: true
+  firstTimeMessage: '&f &fPuede alternar la apertura de puertas dobles y de hierro
+    usando &e/doubledoors&f'
+  enabledMessage: '&f &fTienes &ehabilitado&f apertura de puertas dobles y de hierro'
+  disabledMessage: '&f &fHas &edhabilitado&f apertura de puertas dobles y de hierro'
+  noPermissionMessage: '&f &fNo tiene permiso para usar este comando.'
+  regionDoubleDoorsFlagMessage: ''
+  regionIronDoorsFlagMessage: '&f &f¡Aquí no se pueden abrir puertas de hierro!'
+
+# Automatically picks up items for players
+# Permissions: smartcore.droptoinventory.use
+dropToInventory:
+  enabled: true
+  default: true
+  fullInventoryMessage: '&cTu inventario está lleno'
+  playSound: true
+  firstTimeMessage: '&f &fPuede alternar la recogida automática de artículos usando
+    &e/apickup'
+  enabledMessage: '&f &fTienes habilitada la recogida automática de artículos.'
+  disabledMessage: '&f &fHa &edhabilitado&f la recogida automática de artículos.'
+  noPermissionMessage: '&f &fNo tiene permiso para usar este comando.'
+
+# Edit signs by right clicking them
+# Permissions: smartcore.editablesigns.use, smartcore.editablesigns.color
+editableSigns:
+  enabled: true
+  default: true
+  replaceLegacyColorCodes: true
+  firstTimeMessage: '&f &fPuede alternar la edición de signos usando &e/signit'
+  enabledMessage: '&f &fHas &ehabilitado&f la edición de signos.'
+  disabledMessage: '&f &fHa &edhabilitado&f la edición de signos.'
+  noPermissionMessage: '&f &fNo tiene permiso para usar este comando.'
+
+# Replaced emojis in chat
+# Permissions: smartcore.emoji.*, smartcore.emoji.<emoji_name>
+emojis:
+  enabled: true
+  list:
+    clown:
+      trigger: ':clown:'
+      value: '&f&7'
+    dead:
+      trigger: ':dead:'
+      value: '&f&7'
+    eyes:
+      trigger: ':eyes:'
+      value: '&f&7'
+    flushed:
+      trigger: ':flushed:'
+      value: '&f&7'
+    forme:
+      trigger: ':forme:'
+      value: '&f&7'
+    hearteyes:
+      trigger: ':hearteyes:'
+      value: '&f&7'
+    laugh:
+      trigger: ':laugh:'
+      value: '&f&7'
+    look:
+      trigger: ':look:'
+      value: '&f&7'
+    money:
+      trigger: ':money:'
+      value: '&f&7'
+    ohyeah:
+      trigger: ':ohyeah:'
+      value: '&f&7'
+    party:
+      trigger: ':party:'
+      value: '&f&7'
+    shock:
+      trigger: ':shock:'
+      value: '&f&7'
+    sick:
+      trigger: ':sick:'
+      value: '&f&7'
+    thumbsup:
+      trigger: ':thumbsup:'
+      value: '&f&7'
+    thumbsdown:
+      trigger: ':thumbsdown:'
+      value: '&f&7'
+    unamused:
+      trigger: ':unamused:'
+      value: '&f&7'
+    sunglasses:
+      trigger: ':sunglasses:'
+      value: '&f&7'
+  regionFlagMessage: '&f &fAquí no se pueden utilizar emojis.'
+
+# Place the item in your hand on your head
+# Permissions: smartcore.hat.use
+hat:
+  enabled: true
+  allowedMaterials:
+  - leather_horse_armor
+  successMessage: '&f &f¡Disfruta de tu nuevo sombrero!'
+  badMaterialMessage: '&f &f¡No puedes poner eso en tu cabeza!'
+  noItemMessage: '&f &f¡No tienes ningún artículo en la mano!'
+  notEnoughSpaceMessage: '&f &f¡No tienes suficiente espacio en tu inventario!'
+  noPermissionMessage: '&f &fNo tiene permiso para usar este comando.'
+  regionFlagMessage: '&f &fAquí no se pueden usar sombreros.'
+
+# Displays an improved plugin list
+# Permissions: smartcore.pluginlist.use
+pluginList:
+  enabled: true
+  noPermissionMessage: '&f &fNo tiene permiso para usar este comando.'
+  message: '&f &9Plugins (%count%): %plugins%'
+  separator: '&f, '
+  pluginName: '%name%'
+  enabledPrefix: '&a'
+  disabledPrefix: '&c'
+  pluginHover:
+  - '&fVersion: &b%version%'
+  - '&fAuthor: &b%authors%'
+
+
+# Resource pack loader
+resourcePackLoader:
+  enabled: true
+  forceResourcePack: true
+  onlyOnFirstJoin: true
+  resourcePack: '' # Leave empty to use resource pack from server.properties
+  prompt: '&e&l¡Este servidor requiere textura para una experiencia agradable!' # Leave empty to use prompt from server.properties
+  delay: 80

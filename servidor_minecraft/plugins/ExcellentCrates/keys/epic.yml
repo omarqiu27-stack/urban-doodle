@@ -1,0 +1,13 @@
+Name: §dClave Épica
+Virtual: false
+Item:
+  Material: STICK
+  Custom_Model_Data: 144
+  Amount: 1
+  Durability: 0
+  Name: '&dClave Épica'
+  Lore:
+  - '&7Con esta llave ud'
+  - '&7puede abrir caja Épica'
+  Item_Flags: []
+  Unbreakable: false

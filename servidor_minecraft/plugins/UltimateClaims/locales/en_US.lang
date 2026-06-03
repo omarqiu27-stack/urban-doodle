@@ -1,0 +1,215 @@
+##################################################
+# New messages added for UltimateClaims v1.10.0. #
+#                                                #
+# general.status.true                            #
+# general.status.false                           #
+# general.notenoughfundspowercell                #
+# command.ban.notself                            #
+# command.claim.newregion                        #
+# command.claim.maxregions                       #
+# command.transferownership.success              #
+# command.transferownership.failed               #
+# command.lock.lockedother                       #
+# command.lock.unlockedother                     #
+# command.name.toolong                           #
+# interface.powercell.takefunds                  #
+# interface.settings.tnttitle                    #
+# interface.settings.flytitle                    #
+# interface.role.all                             #
+# interface.role.owner                           #
+# interface.role.member                          #
+# interface.role.visitor                         #
+# interface.sortingmode.default                  #
+# interface.sortingmode.playtime                 #
+# interface.sortingmode.membersince              #
+# interface.audits.title                         #
+# interface.audits.entryname                     #
+# interface.audits.entrylore                     #
+# event.powercell.destroyed                      #
+##################################################
+
+general:
+  nametag:
+    prefix: '&eClaims &8|'
+  word:
+    none: none
+  claim:
+    defaultname: Propiedad de %name%
+    powercell:
+      low: '&c¡Energía baja!'
+      message: '&e%time% &fRestante.'
+    dissolve: '&fTu propiedad &e%claim% &fha sido disuelta.'
+    returnfunds: '&a%amount% ha sido devolvido a ti.'
+  notanumber: '&fLa entrada &4%value% &fno es un número'
+  notenoughfunds: '&fNo tienes suficientes fondos.'
+  powercellrecipe: '&eReceta de Celda de Poder'
+  interface:
+    exit: '&cSalir'
+    back: '&cAtrás'
+    next: '&cSiguiente Pagina'
+    previous: '&cPagina Anterior'
+    current: '&fActual: &e%current%&f.'
+  status:
+    'true': true
+    'false': false
+  notenoughfundspowercell: '&fEsta célula de energía no tiene fondos suficientes. &e%balance%&f está disponible para ser retirado.'
+# Command Messages
+command:
+  general:
+    notapartclaim: '&fNo eres parte de esa propiedad o no existe.'
+    noclaim: '&fNecesitas estar en una propiedad para hacer esto.'
+    noplayer: '&fEse jugador no existe o no esta conectado.'
+    notinclaim: '&fEse jugador no esta en tu propiedad.'
+    claimed: '&fEste chunk ya esta reclamado.'
+    notclaimed: '&fEste chunk no esta reclamado.'
+    notyourclaim: '&fEste chunk esta reclamado por alguien más.'
+  invite:
+    invited: '&fHas sido invitado para unirte a &e%claim%&f. Usa &e/c accept &fpara aceptar la invitación.'
+    invite: '&fHas invitado a &e%name% &fpara unirse a tu propiedad&f.'
+    notself: '&fNo puedes invitarte a ti mismo.'
+    already: '&fEste jugador ya es un miembro.'
+    alreadyinvited: '&fEste jugador ya tiene una invitación activa.'
+  addmember:
+    added: '&fHas sido agregado a &e%claim%&f.'
+    add: '&fHas agregado a &e%name% &fa tu propiedad&f.'
+  kick:
+    kicked: '&fHas sido expulsado de &4%claim%&f.'
+    kick: '&fHas expulsado a &e%name% &fde &e%claim%&f.'
+    notself: '&fNo puedes expulsarte a ti mismo.'
+  uan:
+    notself: '&fNo puedes suspenderte a ti mismo.'
+  ban:
+    banned: '&fHas sido suspendido de &4%claim%&f.'
+    ban: '&fHas suspendido a &e%name% &fde &e%claim%&f.'
+    notself: '&7You cannot ban yourself.'
+  unban:
+    unbanned: '&fTu suspensión ha sido levantada de &4%claim%&f.'
+    unban: '&fHas levantado la suspensión a &e%name% &fde &e%claim%&f.'
+    notself: '&fNo puedes levantar una suspensión a ti mismo.'
+  accept:
+    none: '&fNo tienes ninguna invitación para aceptar.'
+    success: '&fAhora eres un miembro de %claim%&f.'
+    accepted: '&e%name% &faceptó tu invitación.'
+    maxed: '&fEsta propiedad esta a su maxima capacidad.'
+  claim:
+    success: '&fHas reclamado este chunk para tu propiedad.'
+    nocell: '&fNecesitas crear una celda de poder antes de reclamar más terreno...'
+    noregion: '&f¡No puedes reclamar una región protegida!'
+    info: '&fTienes &4%time% &fpara crear una celda de poder antes de que tu propiedad sea disuelta... Para crear una necesitas construir la receta que puedes encontrar en &e/c recipe&f. Formala en el centro de un solo cofre dentro de tu propiedad.'
+    nottouching: '&fSolo puedes reclamar chunks que se esten tocando entre ellos.'
+    toomany: '&fSolo puedes reclamar &4%amount% &fchunks.'
+    disabledworld: '&fNo puedes hacer eso en este mundo.'
+    newregion: '&aHa creado una nueva región correctamente.'
+    maxregions: '&cNo se pueden crear más regiones...'
+  unclaim:
+    success: '&fHas deshecho la reclamación de este chunk.'
+    powercell: '&fNo puedes deshacer la reclamación del chunk si posees la celda de energía... Por favor muevela primero.'
+  removeclaim:
+    success: '&fEliminaste la propiedad %claim%.'
+  leave:
+    youleft: '&fHas dejado &e%claim%&f.'
+    left: '&e%player% &fdejó &e%claim%&f.'
+    owner: '&fNo puedes dejar tu propia propiedad.'
+  lock:
+    locked: '&fHas bloqueado tu propiedad.'
+    unlocked: '&fHas desbloqueado tu propiedad.'
+    lockedother: '&7Has bloqueado la reclamación.'
+    unlockedother: '&7Has desbloqueado la reclamación.'
+  sethome:
+    set: '&fHas configurado el hogar para tu propiedad.'
+  name:
+    set: '&fEl nombre de tu propiedad ha sido cambiado a %name%'
+    toolong: '&cThat name is too long. The maximum character count is &9%max%&c.'
+  home:
+    none: '&fEsa propiedad no tiene un hogar configurado...'
+    success: '&fTe has teletransportado al hogar de tu propiedad.'
+  show:
+    start: '&fVisualizador de propiedad &2activado.'
+    stop: '&fVisualizador de propiedad &fdesactivado.'
+  transferownership:
+    success: '&7You transferred ownership of %claim% successfully.'
+    failed: '&7You failed to transferred ownership of %claim%.'
+# Interface Messages
+interface:
+  powercell:
+    economytitle: '&fEconomía almacenada: &e%time%&f.'
+    economylore: '&fClick para depositar fondos.'
+    valuablestitle: '&fObjetos almacenados: &e%time%&f.'
+    totaltitle: '&fPoder Total: &e%time%&f.'
+    addfunds: '&fIngresa una cantidad para depositar.'
+    infotitle: '&5&lInformación'
+    infolore: '&fTienes &e%chunks% &fchunks|&freclamados y &e%members% &fmiembros.'
+    banstitle: '&c&lSuspensiones'
+    banslore: '&fClick para ver las suspensiones en tu propiedad.'
+    memberstitle: '&9&lMiembros'
+    memberslore: '&fClick para ver los miembros de tu propiedad.'
+    settingstitle: '&e&lOpciones'
+    settingslore: '&fCambia las opciones de tu propiedad.'
+    takefunds: '&7Enter an amount to withdraw.'
+  members:
+    title: Miembros
+    statslore: '&fMiembros Totales: &e%totalmembers%&f.|&fMiembros Maximos: &e%maxmembers%&f.|&fMiembros: &e%members%&f.'
+    skulllore: '&fRol: &a%role%|&fTiempo de juego: &b%playtime%|&fMiembro desde: &d%membersince%'
+    changetypetitle: '&fCambiar Tipo'
+    changetypelore: '&fActual: &d%current%|&fClick para cambiar tipo.'
+    statstitle: '&fEstadisticacs'
+    changesorttitle: '&fCambiar Orden'
+    changesortlore: '&fActual: &d%current%|&fClick para cambiar orden.'
+    visitorsettingstitle: '&9&lOpciones de Visitantes'
+    visitorsettingslore: '&fEdita opciones para visitantes.'
+    membersettingstitle: '&5&lOpciones de Miembros'
+    membersettingslore: '&fEdita opciones para miembros.'
+  permsettings:
+    title: Opciones de %role%
+    breaktitle: '&fRomper Bloques'
+    placetitle: '&fColocar Bloques'
+    interacttitle: '&fInteractuar'
+    mobkilltitle: '&fAsesinar Mobs'
+    redstonetitle: '&fRedstone'
+    doorstitle: '&fPuertas'
+    tradingtitle: '&fCambiando'
+  bans:
+    title: Suspensiones
+    infotitle: '&fInformación'
+    skulllore: '&fClick para levantar la suspensión.'
+    infolore: '&fCantidad de suspensiones: &e%bancount%&f.'
+  settings:
+    title: Opciones
+    hostilemobspawningtitle: '&e&lAparición de Monstruos Hostiles'
+    firespreadtitle: '&e&lPropagación de Fuego'
+    pvptitle: '&e&lPVP'
+    mobgriefingtitle: '&e&lGriefing de Monstruos'
+    leafdecaytitle: '&e&lDecadencia de Hojas'
+    tnttitle: '&6&lTNT Griefing'
+    flytitle: '&6&lFly'
+  recipe:
+    title: Receta de Celda de Poder
+  role:
+    all: All
+    owner: Owner
+    member: Member
+    visitor: Visitor
+  sortingmode:
+    default: DEFAULT
+    playtime: PLAYTIME
+    membersince: MEMBER SINCE
+  audits:
+    title: Audit Log
+    entryname: '&6%who%'
+    entrylore: '&7When: &6%when% ago'
+# Event Messages
+event:
+  general:
+    nopermission: '&cNo tienes permiso para hacer eso.'
+  invite:
+    expired: '&cTu invitación ha expirado...'
+  claim:
+    enter: '&fHas entrado a &e%claim%&f.'
+    exit: '&fHas salido de &e%claim%&f.'
+    locked: '&cUna fuerza magica te previene entrar...'
+  powercell:
+    success: '&fHas creado una celda de poder. Llenala con combustible para mantener tu tierra reclamada.'
+    failopen: '&fNecesitas ser el propietario de la propiedad para abrir la celda de poder.'
+    lowpower: '&f¡Tu propiedad &e%claim% &fno tiene energía!'
+    superpower: '&f¡Tu propiedad &e%claim% &ftodavia no tiene energía y esta en riesgo de ser disuelta!'
+    destroyed: '&fCélula de energía destruida. Has ganado &e%balance%&f de su almacenamiento de dinero.'

@@ -1,0 +1,53 @@
+## Extra Information:
+## This is the default language file for BlueSlimeCore.
+## The default language is "en_us", also known as English (United States).
+## Context will be added as YAML comments above the string.
+
+## The color scheme for messages is white, aqua, and sometimes red.
+## Command feedback that is successful should always be green.
+## Error messages should always be red.
+## Variables in messages can be gray or white.
+
+## Messages use the MiniMessage format in non-strict mode.
+## More information about MiniMessage can be found here:
+## https://docs.adventure.kyori.net/minimessage/format.html
+
+---
+language-name: "en_us"
+
+error:
+  player-only: "<red>Ese comando solo puede ser ejecutado por un jugador.</red>"
+  console-only: "<red>Ese comando solo se puede ejecutar en la consola del servidor.</red>"
+  invalid-held-item: "<red>Debe tener un elemento válido para usar este comando.</red>"
+  invalid-world: "<red>Debe estar en un mundo válido para ejecutar este comando.</red>"
+  no-permission: "<red>Permiso Faltante: <gray>{permission}</gray>.</red>"
+
+command:
+  global-gamerule:
+    unknown-gamerule: "<red>Tipo de regla de juego desconocido <gray>{value}</gray>.</red>"
+    list-title: "<white><bold>Valores de las reglas del juego para <gray>{rule}</gray>:</bold></white>"
+    list-line-format: "<gray><bold>{world}:</bold></gray> <white>{value}</white>"
+    success-count: "<green>Regla de juego cambiada con éxito <gray>{rule}</gray> valorar <gray>{value}</gray> en <gray>{count}</gray> mundos.</green>"
+    failure-count: "<red>Error al cambiar la regla del juego <gray>{rule}</gray> en <gray>{count}</gray> mundos.</red>"
+
+  debug-event:
+    invalid-priority: "<red>Tipo de prioridad de evento desconocido <gray>{value}</gray>.</red>"
+    invalid-event-class: "<red>Clase de evento desconocido o inválido <gray>{value}</gray>.</red>"
+    reflection-error: "<red>No se pudo depurar ese evento. Compruebe la consola del servidor en busca de errores.</red>"
+    results-title: "<white>Resultados de depuración para el evento <gray>{event}</gray> y prioridad <gray>{priority}</gray>:</white>"
+    results-none: "<red>Evento <gray>{event}</gray> no tiene ningún oyente con prioridad <gray>{priority}</gray>.</red>"
+
+  sirblobmancore:
+    help:
+      title: "<white><bold>SirBlobmanCore Commands:</bold></white>"
+      command-list:
+        - "<aqua>/sb help</aqua><gray>: Mostrar esta lista de comandos.</gray>"
+        - "<aqua>/sb reload</aqua><gray>: Vuelva a cargar los archivos de configuración para SirBlobmanCore.</gray>"
+        - "<aqua>/debug-event</aqua><gray>: Mostrar información sobre qué clases se incluyen en un evento (solo consola)</gray>"
+        - "<aqua>/global-gamerule</aqua><gray>: Cambiar una regla de juego para cada mundo en el servidor.</gray>"
+        - "<aqua>/item-info</aqua><gray>: Mostrar información sobre el material y el daño de un artículo.</gray>"
+        - "<aqua>/item-to-base64</aqua><gray>: Convertir un elemento en una cadena binaria base64.</gray>"
+        - "<aqua>/item-to-nbt</aqua><gray>: Convierte un elemento a su formato NBT.</gray>"
+        - "<aqua>/item-to-yml</aqua><gray>: Convierta un elemento a un formato Bukkit YAML serializado.</gray>"
+        - ""
+    reload-success: "<green>Recargó correctamente el archivo de configuración</green>"

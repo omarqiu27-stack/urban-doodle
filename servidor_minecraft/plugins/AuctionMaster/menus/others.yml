@@ -1,0 +1,16 @@
+others-menu-item: 'STICK#303'
+others-menu-name: '&aᴏᴛʀᴏꜱ'
+others-menu-lore:
+  - '&8ᴄᴀᴛᴇɢᴏʀɪᴀ'
+  - ''
+  - '&7ᴀʟɢᴜɴ ᴏʙᴊᴇᴛᴏ ᴀᴘᴏꜱᴛᴀʙʟᴇ'
+  - '&7ʏ ɴᴏ ᴅɪꜱᴘᴏɴɪʙʟᴇ ᴇɴ'
+  - '&7ᴏᴛʀᴀꜱ ᴄᴀᴛᴇɢᴏʀɪᴀꜱ.'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&e&lExample &6&lItem'
+
+custom-item-ids:
+  - '303'

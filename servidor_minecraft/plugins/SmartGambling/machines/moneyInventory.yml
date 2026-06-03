@@ -1,0 +1,54 @@
+GUI:
+    size: 45
+    title: '&f⻔⻔⻔⻔⻔⻔⻔⻔'
+    moneyButtons:
+        '100': [9]
+        '250': [11]
+        '500': [13]
+        '1000': [15]
+        '2500': [17]
+    customAmountButton: [29, 30, 31, 32, 33]
+    backButton: []
+    Items:
+        '2':
+            slots: [9]
+            material: STICK
+            customModelData: 3
+            name: '&e100&f'
+            lore:
+                - '&7ᴄʟɪᴄ ᴘᴀʀᴀ ꜱᴇʟᴇᴄᴛ!'
+        '3':
+            slots: [11]
+            material: STICK
+            customModelData: 3
+            name: '&e250&f'
+            lore:
+                - '&7ᴄʟɪᴄ ᴘᴀʀᴀ ꜱᴇʟᴇᴄᴛ!'
+        '4':
+            slots: [13]
+            material: STICK
+            customModelData: 3
+            name: '&e500&f'
+            lore:
+                - '&7ᴄʟɪᴄ ᴘᴀʀᴀ ꜱᴇʟᴇᴄᴛ!'
+        '5':
+            slots: [15]
+            material: STICK
+            customModelData: 3
+            name: '&e1000&f'
+            lore:
+                - '&7ᴄʟɪᴄ ᴘᴀʀᴀ ꜱᴇʟᴇᴄᴛ!'
+        '6':
+            slots: [17]
+            material: STICK
+            customModelData: 3
+            name: '&e2500&f'
+            lore:
+                - '&7ᴄʟɪᴄ ᴘᴀʀᴀ ꜱᴇʟᴇᴄᴛ!'
+        '7':
+            slots: [29, 30, 31, 32, 33]
+            material: STICK
+            customModelData: 3
+            name: '&eᴄᴀɴᴛɪᴅᴀᴅ ᴘᴇʀꜱᴏɴᴀʟɪᴢᴀᴅᴀ&f'
+            lore:
+                - '&7ᴄʟɪᴄ ᴘᴀʀᴀ ɪɴᴘᴜᴛ!'

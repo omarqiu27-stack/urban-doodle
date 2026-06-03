@@ -1,0 +1,14 @@
+location: world:6.481:76.000:-84.459
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: 
+    height: 0.3
+  - content: '&7%sg_blackjack_status_281e3e77-4089-4cbb-9170-f5b6c781c5e9%'
+    height: 0.3
+  actions: {}

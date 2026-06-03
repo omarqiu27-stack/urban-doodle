@@ -1,0 +1,13 @@
+Name: §eClave Diaria
+Virtual: false
+Item:
+  Material: STICK
+  Custom_Model_Data: 141
+  Amount: 1
+  Durability: 0
+  Name: '&eClave Diaria'
+  Lore:
+  - '&7Con esta llave ud'
+  - '&7puede abrir caja diario'
+  Item_Flags: []
+  Unbreakable: false

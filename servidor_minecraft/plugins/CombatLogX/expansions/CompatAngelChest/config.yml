@@ -1,0 +1,11 @@
+# Should CombatLogX prevent players from breaking AngelChests during combat?
+# Default: true
+prevent-breaking: true
+
+# Should CombatLogX prevent players from opening AngelChests during combat?
+# Default: true
+prevent-opening: true
+
+# Should CombatLogX prevent players from fast looting AngelChests during combat?
+# Default: true
+prevent-fast-looting: true

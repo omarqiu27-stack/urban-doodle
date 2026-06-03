@@ -1,0 +1,163 @@
+ShopName: Commands
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔'
+signs:
+  text: '[Commands]'
+  NeedPermissionToCreateSign: true
+shop:
+  command_top:
+    MenuItem:
+    - "lore1: &7ᴛᴇʟᴇᴛʀᴀɴꜱᴘᴏʀᴛᴀʀꜱᴇ ᴀ ʟᴀ ꜱᴜᴘᴇʀꜰɪᴄɪᴇ"
+    - 'lore3:&f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aᴄɪᴍᴀ
+    - amount:1
+    - type:weeping_vines
+    RewardType: COMMAND
+    Reward:
+    - top %player%
+    PriceType: MONEY
+    Price: 1500
+    Message: '&f &fTeleportation performed!'
+    ExtraPermission: ''
+    InventoryLocation: 11
+  command_back:
+    MenuItem:
+    - "lore1: &7ᴠᴏʟᴠᴇʀ ᴀ ʟᴀ ᴜʙɪᴄᴀᴄɪᴏɴ ᴀɴᴛᴇʀɪᴏʀ"
+    - 'lore3:&f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aᴀᴛʀᴀꜱ
+    - amount:1
+    - type:ENDER_PEARL
+    RewardType: COMMAND
+    Reward:
+    - back %player%
+    PriceType: MONEY
+    Price: 3200
+    Message: '&f &fTeleportation performed!'
+    ExtraPermission: ''
+    InventoryLocation: 12
+  command_fly:
+    MenuItem:
+    - 'lore1:&7ᴛᴇɴᴅʀᴀꜱ ᴀᴄᴄᴇꜱᴏ ᴀ ᴠᴏʟᴀʀ ᴅᴜʀᴀɴᴛᴇ 12 ʜᴏʀᴀꜱ'
+    - 'lore3:&f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aᴠᴏʟᴀʀ 12ʜ
+    - amount:1
+    - type:FEATHER
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission settemp essentials.fly true 12h
+    PriceType: MONEY
+    Price: 2500
+    Message: '&f &fFly now!'
+    ExtraPermission: ''
+    InventoryLocation: 14
+  command_sun:
+    MenuItem:
+    - "lore1: &7ᴇʟ ꜱᴏʟ ꜱᴀʟᴇ ᴅᴇ ʟᴀꜱ ɴᴜʙᴇꜱ"
+    - 'lore3:&f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aꜱᴏʟ
+    - amount:1
+    - type:SUNFLOWER
+    RewardType: COMMAND
+    Reward:
+    - sun playworld sun
+    PriceType: MONEY
+    Price: 1500
+    Message: '&f &fSunny!'
+    ExtraPermission: ''
+    InventoryLocation: 16
+  command_day:
+    MenuItem:
+    - 'lore1:&7ᴇʟ ᴀʀᴛɪᴄᴜʟᴏ ᴇꜱ ᴠɪꜱɪʙʟᴇ ꜱᴏʟᴏ ᴘᴏʀ ʟᴀ ɴᴏᴄʜᴇ'
+    - 'lore3:&f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aᴅɪᴀ
+    - amount:1
+    - type:jack_o_lantern
+    RewardType: COMMAND
+    Reward:
+    - day set day playworld
+    PriceType: MONEY
+    Price: 1350
+    Message: '&f &fTime was setted to day.'
+    ExtraPermission: ''
+    InventoryLocation: 17
+    Condition:
+    - type:worldtime
+    - between:11615:24000
+    - type:World
+    - match:playworld 
+  command_night:
+    MenuItem:
+    - 'lore1:&7ᴇʟ ᴀʀᴛɪᴄᴜʟᴏ ᴇꜱ ᴠɪꜱɪʙʟᴇ ꜱᴏʟᴏ ᴅᴜʀᴀɴᴛᴇ ᴇʟ ᴅɪᴀ'
+    - 'lore3:&f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aɴᴏᴄʜᴇ
+    - amount:1
+    - type:carved_pumpkin
+    RewardType: COMMAND
+    Reward:
+    - night set night playworld
+    PriceType: MONEY
+    Price: 1800
+    Message: '&f &f &fTime was set to night.'
+    ExtraPermission: ''
+    InventoryLocation: 17
+    Condition:
+    - type:worldtime
+    - between:0:11615
+    - type:World
+    - match:playworld
+  command_day1:
+    MenuItem:
+    - 'lore1:&7ᴇʟ ᴀʀᴛɪᴄᴜʟᴏ ᴇꜱ ᴠɪꜱɪʙʟᴇ ꜱᴏʟᴏ ᴘᴏʀ ʟᴀ ɴᴏᴄʜᴇ'
+    - 'lore3:&cɴᴏ ᴅɪꜱᴘᴏɴɪʙʟᴇ ᴇɴ ᴇꜱᴛᴇ ᴍᴜɴᴅᴏ'
+    - name:&aᴅɪᴀ
+    - amount:1
+    - type:jack_o_lantern
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+    Condition:
+    - type:worldtime
+    - between:11615:24000
+  command_night1:
+    MenuItem:
+    - 'lore1:&7ᴇʟ ᴀʀᴛɪᴄᴜʟᴏ ᴇꜱ ᴠɪꜱɪʙʟᴇ ꜱᴏʟᴏ ᴅᴜʀᴀɴᴛᴇ ᴇʟ ᴅɪᴀ'
+    - 'lore3:&cɴᴏ ᴅɪꜱᴘᴏɴɪʙʟᴇ ᴇɴ ᴇꜱᴛᴇ ᴍᴜɴᴅᴏ'
+    - name:&aɴᴏᴄʜᴇ
+    - amount:1
+    - type:carved_pumpkin
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+    Condition:
+    - type:worldtime
+    - between:0:11615
+ ####################################################################################################################
+  Back:
+    MenuItem:
+    - name:&cᴀᴛʀᴀꜱ
+    - type:stick
+    - custommodeldata:3
+    RewardType: SHOP
+    Reward: Menu
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 49
+  Back2:
+    MenuItem:
+    - name:&cᴀᴛʀᴀꜱ
+    - type:stick
+    - custommodeldata:3
+    RewardType: SHOP
+    Reward: Menu
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+  Back3:
+    MenuItem:
+    - name:&cᴀᴛʀᴀꜱ
+    - type:stick
+    - custommodeldata:3
+    RewardType: SHOP
+    Reward: Menu
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51

@@ -1,0 +1,1029 @@
+ShopName: Rewards
+DisplayName: '&8Recompensas'
+Command: Rewards
+signs:
+  text: '[Rewards]'
+  NeedPermissionToCreateSign: true
+shop:
+  one:
+    MenuItem:
+    - name:&aRecompensa diaria
+    - amount:1
+    - type:tripwire_hook
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Daily Key &7x1'
+    - 'lore5:&eDesbloquear con comando /daily'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  two:
+    MenuItem:
+    - name:&aRecompensa cada 3 horas
+    - amount:1
+    - type:tripwire_hook
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Balanced Key &7x1'
+    - 'lore5:&eDesbloquear en every 3 horas jugadas'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  1geted:
+    MenuItem:
+    - name:&aPremio 1
+    - amount:1
+    - type:white_bed
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ White Bed &7x1'
+    - 'lore5:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+    Condition:
+    - type:permission
+    - match:reward.take.1
+  2geted:
+    MenuItem:
+    - name:&aPremio 2
+    - amount:18
+    - type:torch
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Torch &7x18'
+    - 'lore5:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+    Condition:
+    - type:permission
+    - match:reward.take.2
+  3geted:
+    MenuItem:
+    - name:&aPremio 3
+    - amount:12
+    - type:birch_log
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Birch Log &7x12'
+    - 'lore5:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:reward.take.3
+  4geted:
+    MenuItem:
+    - name:&aPremio 4
+    - amount:14
+    - type:carrot
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Carrot &7x14'
+    - 'lore5:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+    Condition:
+    - type:permission
+    - match:reward.take.4
+  5geted:
+    MenuItem:
+    - name:&aPremio 5
+    - amount:4
+    - type:spruce_sapling
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Spruce Sapling &7x4'
+    - 'lore5:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+    Condition:
+    - type:permission
+    - match:reward.take.5
+  6geted:
+    MenuItem:
+    - name:&aPremio 6
+    - amount:8
+    - type:iron_ingot
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Iron Ingot &7x8'
+    - 'lore5:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+    Condition:
+    - type:permission
+    - match:reward.take.6
+  7geted:
+    MenuItem:
+    - name:&aPremio 7
+    - amount:1
+    - type:stonecutter
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Stonecutter &7x1'
+    - 'lore5:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+    Condition:
+    - type:permission
+    - match:reward.take.7
+  8geted:
+    MenuItem:
+    - name:&aPremio 8
+    - amount:24
+    - type:glass
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Glass &7x24'
+    - 'lore5:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+    Condition:
+    - type:permission
+    - match:reward.take.8
+  9geted:
+    MenuItem:
+    - name:&aPremio 9
+    - amount:3
+    - type:white_tulip
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ White Tulip &7x3'
+    - 'lore4:&f▪ Pink Tulip &7x3'
+    - 'lore5:&f▪ Cornflower &7x3'
+    - 'lore7:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    Condition:
+    - type:permission
+    - match:reward.take.9
+  10geted:
+    MenuItem:
+    - name:&aPremio 10
+    - amount:1
+    - type:diamond_pickaxe
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Diamond Pickaxe &7x1'
+    - 'lore5:&c¡Todo recibido!'
+    - enchantment:EFFICIENCY#1
+    - hideflags:all
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+    Condition:
+    - type:permission
+    - match:reward.take.10
+  11geted:
+    MenuItem:
+    - name:&aPremio 11
+    - amount:1
+    - type:wolf_spawn_egg
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Wolf Spawn Egg &7x1'
+    - 'lore5:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+    Condition:
+    - type:permission
+    - match:reward.take.11
+  12geted:
+    MenuItem:
+    - name:&aPremio 12
+    - amount:16
+    - type:cactus
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Cactus &7x16'
+    - 'lore5:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+    Condition:
+    - type:permission
+    - match:reward.take.12
+  13geted:
+    MenuItem:
+    - name:&aPremio 13
+    - amount:32
+    - type:smooth_quartz
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Smooth Quartz &7x32'
+    - 'lore4:&f▪ Diversity Key &7x1'
+    - 'lore6:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+    Condition:
+    - type:permission
+    - match:reward.take.13
+  14geted:
+    MenuItem:
+    - name:&aPremio 14 
+    - amount:1
+    - type:fishing_rod
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Fishing Rod &7x1'
+    - 'lore5:&c¡Todo recibido!'
+    - enchantment:LUCK_OF_THE_SEA#2
+    - hideflags:all
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+    Condition:
+    - type:permission
+    - match:reward.take.14
+  15geted:
+    MenuItem:
+    - name:&aPremio 15
+    - amount:26
+    - type:pumpkin_pie
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Pumpkin Pie &7x26'
+    - 'lore4:&f▪ Balanced Key &7x1'
+    - 'lore6:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    Condition:
+    - type:permission
+    - match:reward.take.15
+  16geted:
+    MenuItem:
+    - name:&aPremio 16
+    - amount:2
+    - type:book
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Chair &7x2'
+    - 'lore5:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+    Condition:
+    - type:permission
+    - match:reward.take.16
+  17geted:
+    MenuItem:
+    - name:&aPremio 17
+    - amount:1
+    - type:anvil
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Anvil &7x1'
+    - 'lore5:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 40
+    Condition:
+    - type:permission
+    - match:reward.take.17
+  18geted:
+    MenuItem:
+    - name:&aPremio 18
+    - amount:36
+    - type:prismarine_bricks
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Prismarine Bricks &7x36'
+    - 'lore4:&f▪ Dungeons Key - Easy &7x1'
+    - 'lore6:&c¡Todo recibido!'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 42
+    Condition:
+    - type:permission
+    - match:reward.take.18
+  1get:
+    MenuItem:
+    - name:&aPremio 1
+    - amount:1
+    - type:white_bed
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ White Bed &7x1'
+    - 'lore5:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.1
+    - give %player% white_bed 1
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+    Condition:
+    - type:permission
+    - match:reward.ready.1
+  2get:
+    MenuItem:
+    - name:&aPremio 2
+    - amount:18
+    - type:torch
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Torch &7x18'
+    - 'lore5:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.2
+    - give %player% torch 18
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+    Condition:
+    - type:permission
+    - match:reward.ready.2
+  3get:
+    MenuItem:
+    - name:&aPremio 3
+    - amount:12
+    - type:birch_log
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Birch Log &7x12'
+    - 'lore5:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.3
+    - give %player% birch_log 12
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:reward.ready.3
+  4get:
+    MenuItem:
+    - name:&aPremio 4
+    - amount:14
+    - type:carrot
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Carrot &7x14'
+    - 'lore5:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.4
+    - give %player% carrot 14
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+    Condition:
+    - type:permission
+    - match:reward.ready.4
+  5get:
+    MenuItem:
+    - name:&aPremio 5
+    - amount:4
+    - type:spruce_sapling
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Spruce Sapling &7x4'
+    - 'lore5:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.5
+    - give %player% spruce_sapling 4
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+    Condition:
+    - type:permission
+    - match:reward.ready.5
+  6get:
+    MenuItem:
+    - name:&aPremio 6
+    - amount:8
+    - type:iron_ingot
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Iron Ingot &7x8'
+    - 'lore5:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.6
+    - give %player% iron_ingot 8
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+    Condition:
+    - type:permission
+    - match:reward.ready.6
+  7get:
+    MenuItem:
+    - name:&aPremio 7
+    - amount:1
+    - type:stonecutter
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Stonecutter &7x1'
+    - 'lore5:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.7
+    - give %player% stonecutter 1
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+    Condition:
+    - type:permission
+    - match:reward.ready.7
+  8get:
+    MenuItem:
+    - name:&aPremio 8
+    - amount:24
+    - type:glass
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Glass &7x24'
+    - 'lore5:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.8
+    - give %player% glass 24
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+    Condition:
+    - type:permission
+    - match:reward.ready.8
+  9get:
+    MenuItem:
+    - name:&aPremio 9
+    - amount:3
+    - type:white_tulip
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ White Tulip &7x3'
+    - 'lore4:&f▪ Pink Tulip &7x3'
+    - 'lore5:&f▪ Cornflower &7x3'
+    - 'lore7:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.9
+    - give %player% white_tulip 3
+    - give %player% pink_tulip 3
+    - give %player% cornflower 3
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    Condition:
+    - type:permission
+    - match:reward.ready.9
+  10get:
+    MenuItem:
+    - name:&aPremio 10
+    - amount:1
+    - type:diamond_pickaxe
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Diamond Pickaxe &7x1'
+    - 'lore5:&eClick para recibir'
+    - enchantment:EFFICIENCY#1
+    - hideflags:all
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.10
+    - give %player% diamond_pickaxe 1 efficiency:1
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+    Condition:
+    - type:permission
+    - match:reward.ready.10
+  11get:
+    MenuItem:
+    - name:&aPremio 11
+    - amount:1
+    - type:wolf_spawn_egg
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Wolf Spawn Egg &7x1'
+    - 'lore5:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.11
+    - give %player% wolf_spawn_egg 1
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+    Condition:
+    - type:permission
+    - match:reward.ready.11
+  12get:
+    MenuItem:
+    - name:&aPremio 12
+    - amount:16
+    - type:cactus
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Cactus &7x16'
+    - 'lore5:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.12
+    - give %player% cactus 16
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+    Condition:
+    - type:permission
+    - match:reward.ready.12
+  13get:
+    MenuItem:
+    - name:&aPremio 13
+    - amount:32
+    - type:smooth_quartz
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Smooth Quartz &7x32'
+    - 'lore4:&f▪ Diversity Key &7x1'
+    - 'lore6:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.13
+    - give %player% smooth_quartz 32
+    - crate key give %player% diversity 1
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+    Condition:
+    - type:permission
+    - match:reward.ready.13
+  14get:
+    MenuItem:
+    - name:&aPremio 14 
+    - amount:1
+    - type:fishing_rod
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Fishing Rod &7x1'
+    - 'lore5:&eClick para recibir'
+    - enchantment:LUCK_OF_THE_SEA#2
+    - hideflags:all
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.14
+    - give %player% fishing_rod 1 luck_of_the_sea:2
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+    Condition:
+    - type:permission
+    - match:reward.ready.14
+  15get:
+    MenuItem:
+    - name:&aPremio 15
+    - amount:26
+    - type:pumpkin_pie
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Pumpkin Pie &7x26'
+    - 'lore4:&f▪ Balanced Key &7x1'
+    - 'lore6:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.15
+    - give %player% pumpkin_pie 26
+    - crate key give %player% balanced 1
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    Condition:
+    - type:permission
+    - match:reward.ready.15
+  16get:
+    MenuItem:
+    - name:&aPremio 16
+    - amount:2
+    - type:book
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Chair &7x2'
+    - 'lore5:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.16
+    - furniture give Chair %player% 2
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+    Condition:
+    - type:permission
+    - match:reward.ready.16
+  17get:
+    MenuItem:
+    - name:&aPremio 17
+    - amount:1
+    - type:anvil
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Anvil &7x1'
+    - 'lore5:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.17
+    - give %player% anvil 1
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 40
+    Condition:
+    - type:permission
+    - match:reward.ready.17
+  18get:
+    MenuItem:
+    - name:&aPremio 18
+    - amount:36
+    - type:prismarine_bricks
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Prismarine Bricks &7x36'
+    - 'lore4:&f▪ Dungeons Key - Easy &7x1'
+    - 'lore6:&eClick para recibir'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set reward.take.18
+    - give %player% prismarine_bricks 36
+    - dkey %player% easy 
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 42
+    Condition:
+    - type:permission
+    - match:reward.ready.18
+  1:
+    MenuItem:
+    - name:&aPremio 1
+    - amount:1
+    - type:white_bed
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ White Bed &7x1'
+    - 'lore5:&eDesbloquear en 1 minuto jugado'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  2:
+    MenuItem:
+    - name:&aPremio 2
+    - amount:18
+    - type:torch
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Torch &7x18'
+    - 'lore5:&eDesbloquear en 3 minutos jugados'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+  3:
+    MenuItem:
+    - name:&aPremio 3
+    - amount:12
+    - type:birch_log
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Birch Log &7x12'
+    - 'lore5:&eDesbloquear en 5 minutos jugados'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+  4:
+    MenuItem:
+    - name:&aPremio 4
+    - amount:14
+    - type:carrot
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Carrot &7x14'
+    - 'lore5:&eDesbloquear en 10 minutos jugados'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+  5:
+    MenuItem:
+    - name:&aPremio 5
+    - amount:4
+    - type:spruce_sapling
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Spruce Sapling &7x4'
+    - 'lore5:&eDesbloquear en 15 minutos jugados'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+  6:
+    MenuItem:
+    - name:&aPremio 6
+    - amount:8
+    - type:iron_ingot
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Iron Ingot &7x8'
+    - 'lore5:&eDesbloquear en 20 minutos jugados'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+  7:
+    MenuItem:
+    - name:&aPremio 7
+    - amount:1
+    - type:stonecutter
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Stonecutter &7x1'
+    - 'lore5:&eDesbloquear en 25 minutos jugados'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+  8:
+    MenuItem:
+    - name:&aPremio 8
+    - amount:24
+    - type:glass
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Glass &7x24'
+    - 'lore5:&eDesbloquear en 30 minutos jugados'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+  9:
+    MenuItem:
+    - name:&aPremio 9
+    - amount:3
+    - type:white_tulip
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ White Tulip &7x3'
+    - 'lore4:&f▪ Pink Tulip &7x3'
+    - 'lore5:&f▪ Cornflower &7x3'
+    - 'lore7:&eDesbloquear en 40 minutos jugados'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+  10:
+    MenuItem:
+    - name:&aPremio 10
+    - amount:1
+    - type:diamond_pickaxe
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Diamond Pickaxe &7x1'
+    - 'lore5:&eDesbloquear en 50 minutos jugados'
+    - enchantment:EFFICIENCY#1
+    - hideflags:all
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+  11:
+    MenuItem:
+    - name:&aPremio 11
+    - amount:1
+    - type:wolf_spawn_egg
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Wolf Spawn Egg &7x1'
+    - 'lore5:&eDesbloquear en 60 minutos jugados'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+  12:
+    MenuItem:
+    - name:&aPremio 12
+    - amount:16
+    - type:cactus
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Cactus &7x16'
+    - 'lore5:&eDesbloquear en 70 minutos jugados'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+  13:
+    MenuItem:
+    - name:&aPremio 13
+    - amount:32
+    - type:smooth_quartz
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Smooth Quartz &7x32'
+    - 'lore4:&f▪ Diversity Key &7x1'
+    - 'lore6:&eDesbloquear en 80 minutos jugados'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+  14:
+    MenuItem:
+    - name:&aPremio 14 
+    - amount:1
+    - type:fishing_rod
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Fishing Rod &7x1'
+    - 'lore5:&eDesbloquear en 90 minutos jugados'
+    - enchantment:LUCK_OF_THE_SEA#2
+    - hideflags:all
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+  15:
+    MenuItem:
+    - name:&aPremio 15
+    - amount:26
+    - type:pumpkin_pie
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Pumpkin Pie &7x26'
+    - 'lore4:&f▪ Balanced Key &7x1'
+    - 'lore6:&eDesbloquear en 2 horas jugadas'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+  16:
+    MenuItem:
+    - name:&aPremio 16
+    - amount:2
+    - type:book
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Chair &7x2'
+    - 'lore5:&eDesbloquear en 2 horas y#&e30 minutos jugados'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+  17:
+    MenuItem:
+    - name:&aPremio 17
+    - amount:1
+    - type:anvil
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Anvil &7x1'
+    - 'lore5:&eDesbloquear en 3 horas jugadas'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 40
+  18:
+    MenuItem:
+    - name:&aPremio 18
+    - amount:36
+    - type:prismarine_bricks
+    - 'lore2:&bRecompensas:'
+    - 'lore3:&f▪ Prismarine Bricks &7x36'
+    - 'lore4:&f▪ Dungeons Key - Easy &7x1'
+    - 'lore6:&eDesbloquear en 3 horas y#&e30 minutos jugados'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 42
+  Next:
+    MenuItem:
+    - name:&aSiguiente página
+    - amount:1
+    - type:arrow
+    RewardType: shop
+    Reward: Rewards2
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 45
+  glassgray0:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:ORANGE_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  glassgray1:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  glassgray2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  glassgray3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+  glassgray4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+  glassgray5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+  glassgray6:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 37
+  glassgray7:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 44
+  glassgray8:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 41

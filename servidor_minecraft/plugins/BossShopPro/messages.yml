@@ -1,0 +1,60 @@
+#Here you can define all BossShopPro texts displayed to players. Leave a line empty in order to disable a message.
+Main:
+  NoPermission: '&f &fNo tienes permitido hacer esto!'
+  AlreadyBought: '&f &fYa has comprado este objeto!'
+  ShopNotExisting: '&f &fEsa tienda no existe...'
+  ShopItemNotExisting: '&f &fEse objeto de la tienda no existe...'
+  OpenShop: ''
+  OpenShopOtherPlayer: '&f &fAbriendo la tienda con nombre: &e%shop% &fpara &e%player%&f.'
+  CloseShopOtherPlayer: '&f &fCerrando inventario del jugador: &e%player%&f.'
+  CloseShop: ''
+  InventoryFull: '&f &fTu inventario no tiene suficiente espacio libre!'
+  PlayerNotFound: '&f &fJugador/a &e%name%&f no ha sido encontrado/a!'
+  ClickSpamWarning: '&f &fPor favor espera %time_left% segundos hasta que puedas usar esto nuevamente.'
+  OffensiveClickSpamWarning: '&&f &fPor favor no hagas click muy rapido.'
+  OffensiveClickSpamKick: '&f &fKickeado por clickspam.'
+  NeedItemInHand: '&f &fNecesitas un objeto en tu mano principal para poder ejecutar este comando.'
+  PrintedItemInfo: '&f &fToda la información del artículo se ha guardado correctamente aquí: &e''/plugins/BossShopPro/ItemDataStorage.yml''&f.'
+  ListAndSeparator: ' & '
+  ListOrSeparator: ' o '
+Economy:
+  NoAccount: '&f &fNo tienes una cuenta económica!'
+NotEnough:
+  Money: '&f &fNo tienes suficiente dinero!'
+  Item: '&f &fNo tienes suficiente objetos!'
+  Points: '&f &fNo tienes suficiente puntos!'
+  Exp: '&f &fNo tienes suficiente experiencia!'
+  Or: '&f &fNo tienes suficientes recursos!'
+Enchantment:
+  Invalid: '&f &fNo puedes encantar el objeto de tu mano principal con este encantamiento!'
+  EmptyHand: '&f &fNecesitas tener un objeto en la mano!'
+Display:
+  Exp: '%levels% Niveles de Experiencia'
+  Money: '%money%&f'
+  Points: '%points% Puntos'
+  Item: '%items%'
+  ItemAll: 'todos %item%'
+  ItemAllBuy: 'un inventario lleno de %item%'
+  ItemAllEach: '%value%'
+  Nothing: 'nada'
+  BungeeCordServer: 'Teletransportado hacia %server%'
+  BungeeCordCommand: 'Comandos de Bungeecord: %commands%'
+  Close: 'Cerrar Tienda'
+  Command: 'Comandos de consola: %commands%'
+  Custom: 'Desconocido'
+  Enchantment: 'Encantamiento: %type% nivel %level%'
+  Permission: 'Permisos: %permissions%'
+  PlayerCommand: 'Comandos: %commands%'
+  PlayerCommandOp: 'Comandos: %commands%'
+  Shop: 'Abrir tienda: %shop%'
+  Page: 'Abrir página de tienda: %page%'
+Time:
+  Seconds: '%time% segundos'
+  Minutes: '%time% minutos'
+  Hours: '%time% horas'
+  Days: '%time% dias'
+  Weeks: '%time% semanas'
+#You can make BossShopPro translate every enchantment and item into any language included in Vanilla minecraft.
+#Optional & requires LangUtils to be installed (https://www.spigotmc.org/resources/1-10-x-1-9-x-1-8-x-1-7-10-language-utils.8859/)
+#Here you can find a list of locale ids: http://www.oracle.com/technetwork/java/javase/javase7locales-334809.html
+Locale: en_US

@@ -1,0 +1,38 @@
+prefix: '&f '
+nopermission: '%prefix&f¡No tienes el permiso adecuado!'
+toggle:
+  'on': '%prefix&f¡&aActiva &fel marcador!'
+  'off': '%prefix&f¡Usted &cdesactiva &fel marcador!'
+  on_other_target: '%prefix&f¡Tu marcador fue &aactivado &fpor %sender%!'
+  on_other_sender: '%prefix&f¡&aActiva &fel marcador para %target%!'
+  off_other_target: '%prefix&f¡Tu marcador fue &cdesactivado &fpor %sender%!'
+  off_other_sender: '%prefix&f¡&cDesctiva &fel marcador para %target%!'
+reload:
+  start: '%prefix&f¡Se inició la recarga del complemento!'
+  completed: '%prefix&f¡Recarga completada! Hecho en %MS%ms!'
+switch:
+  error: '%prefix&f¡Proporcione un marcador válido!'
+  success: '%prefix&fCambiado al marcador &2%scoreboard%&f!'
+  nopermission: '%prefix&fNo tienes el permiso adecuado para cambiar a %scoreboard%!'
+  world: '%prefix&f¡No puedes activar este marcador en este mundo!'
+  already_activated: '%prefix&f¡Ya tienes este marcador activo!'
+  already_active_other: '%prefix&f¡%target% ya tiene %scoreboard% activado!'
+  success_other: '%prefix&f¡Cambió con éxito el marcador de %target% a %scoreboard%!'
+  success_by_other: '%prefix&f¡Tu marcador fue cambiado por %sender%!'
+  world_other: '%prefix&f¡%target% no se puede activar %scoreboard% en su mundo!'
+  nopermission_other: '%prefix&f¡%target% no tiene permiso para ver %scoreboard%!'
+trigger:
+  insert: '%prefix&f¡Error al insertar el detector de disparadores, los disparadores no funcionarán!'
+  register:
+    invalid: '%prefix&fNo se pudo activar el disparador para la clase: %class_name%, Inválido
+      nombre de la clase!'
+    second: '%prefix&fNo se pudo activar el disparador para la clase: %class_name%, Generar
+      ya activo!'
+    invalid-method: '%prefix&fNo se pudo activar el disparador para la clase: %class_name%,
+      ¡Nombre de método no válido!'
+plugin:
+  information: '%prefix&fEste servidor está ejecutando la versión de marcador animado &2%version%&f!'
+invalid_player: '%prefix&f%value% no es un nombre de jugador válido o no está en línea!'
+invalid_command: '%prefix&f''/%command%'' no es un comando valido. Tratar ''/asb help''
+  para comandos!'
+invalid_sender: '%prefix&fEste comando solo puede ser ejecutado por un jugador.!'

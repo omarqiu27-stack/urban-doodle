@@ -1,0 +1,100 @@
+Messages:
+  prefix: '&f'
+  noPermission: '%prefix% &f¡No tienes permiso para usar este comando!'
+  reload: '%prefix% &f¡Configuración recargada con éxito!'
+  slotsAddCorrectUsage: '%prefix% &fUse: /sg add <machine_type_name>'
+  slotsAddStart: '%prefix% &fLeft click on the blocks you want to add!'
+  selectBlockMessage: '%prefix% &fBlock added at %s %s %s. '
+  cancelButton: '&c&l[Cancel] '
+  confirmButton: '&a&l[Confirm] '
+  click: '&7click'
+  canceledRoutine: '%prefix% &cCanceled.'
+  createdSlotMachine: '%prefix% &fMachine created successfully!'
+  listSlots: '%prefix% &fMachines in your chunk : &8(use /sg list all to see all the machines in your world)'
+  listAllSlots: '%prefix% &fMachines in your world :'
+  listSlotsNoResult: '%prefix% &fNo machines found in your chunk.'
+  listSlotsResult: '%prefix% &fMachine &e(%s) &fat: &e%s&f. '
+  teleportButton: '&a&l[TELEPORT] '
+  removeButton: '&c&l[REMOVE] '
+  idButton: '&9&l[COPY ID]'
+  removedSlotMachines: '%prefix% &fRemoved &e%s &fmachines!'
+  slotsRemoveCorrectUsage: '%prefix% &fUse: /sg remove <all/chunkDataAddress>'
+  chooseMoneyAmount: '%prefix% &fEscriba la cantidad de dinero que desea apostar:'
+  invalidMoneyAmount: '%prefix% &f¡Cantidad de dinero no válida! Por favor, introduzca un número:'
+  wonMoneyActionBar: '&aʜᴀꜱ ɢᴀɴᴀᴅᴏ &e%s&f'
+  wonMoney: '%prefix% &fHas ganado &e%s&f! &fTu nuevo saldo: &e%s&f'
+  moneyExtracted: '&c-%s&f &fpagado. &fTu nuevo saldo: &e%s&f'
+  moneyReceived: '&a+%s&f &frecibió. &fTu nuevo saldo: &e%s&f'
+  notEnoughMoneyActionBar: '&cɴᴏ ᴛɪᴇɴᴇꜱ ꜱᴜꜰɪᴄɪᴇɴᴛᴇ ᴅɪɴᴇʀᴏ'
+  machineAlreadyInUse: '&cEsta máquina ya está siendo utilizada.'
+  timeLeft: '&aᴛɪᴇᴍᴘᴏ ʀᴇꜱᴛᴀɴᴛᴇ ʜᴀꜱᴛᴀ ᴇʟ ᴄᴏᴍɪᴇɴᴢᴏ ᴅᴇʟ ᴘᴀʀᴛɪᴅᴏ: '
+  jackpotWin: '%prefix% &e%castigado &e%s&f &fen la loteria!'
+  jackpotWinOwn: '%prefix% &fUsted ha ganado &e%s&f &fen la loteria!'
+  jackpotReminder: '%prefix% &fLa lotería está comenzando en &e%s &fsegundos. Usa /jackpot para ver los resultados en vivo.'
+  jackpotNextGame: '%prefix% &fLa lotería comenzará en &e%s&f.'
+  jackpotAlreadyStarted: '%prefix% &fLa lotería se está ejecutando actualmente.'
+  jackpotCooldown: 'En enfriamiento'
+  jackpotActive: 'Bote: %s'
+  jackpotFinish: 'Extracción'
+  minutes: 'minutes'
+  seconds: 'seconds'
+  jackpotCommandDeny: '%prefix% &f¡No puedes usar este comando aquí!'
+  crashWin: '%prefix% &fUsted ha ganado &e%s&f en accidente. &fSe detuvo en &e%s &fantes del accidente en &e%s&f.'
+  crashNextGame: '%prefix% &fEl juego comenzará en &e%s&f.'
+  crashAlreadyStarted: '%prefix% &cEl juego se está ejecutando actualmente.'
+  waitingForOpponent: '&cᴇꜱᴘᴇʀᴀɴᴅᴏ ᴀʟ ᴏᴘᴏɴᴇɴᴛᴇ...'
+  wonBlackJack: '%prefix% &f¡Has ganado al blackjack! tu valor era &e%s&f, mientras que el de tu oponente era &e%s&f.'
+  lostBlackJack: '%prefix% &f¡Has perdido en el blackjack! tu valor era &e%s, mientras que el de tu oponente era &e%s&f.'
+  drawBlackJack: '%prefix% &f¡Hubo un empate! Ambos tenían el valor %s.'
+  opponentStopped: 'ɪɴᴛᴇʀʀᴜᴍᴘɪᴅᴏ'
+  opponentPlaying: 'ɴᴏ ʜᴀʙÍᴀ ᴘᴀʀᴀᴅᴏ'
+  drawBlackJack: '%prefix% &f¡Hubo un empate! Ambos tenían el valor &e%s&f.'
+  drawBlackJackOver: '%prefix% &f¡Hubo un empate! Ambos tenían valores por encima de 21.'
+  blackjackAlreadyInUse: '&cᴇꜱᴛᴀ ᴍᴇꜱᴀ ᴇꜱᴛᴀ ᴏᴄᴜᴘᴀᴅᴀ'
+
+helpMenu:
+  - ''
+  - '&aSmartGambling'
+  - ''
+  - '&fUse &r&e&l/sg reload &r&fto reload the config'
+  - '&fUse &r&e&l/sg add <slot-type> &r&fto create a new physical slot machine'
+  - '&fUse &r&e&l/sg list &r&fto list all the slot machines in your chunk'
+  - '&fUse &r&e&l/sg remove <address> &r&fto remove a slot machine in your chunk'
+  - '&fUse &r&e&l/sg remove all &r&fto remove all slots machines in your chunk'
+
+
+Sounds:
+  slotsWin:
+    - BLOCK_NOTE_BLOCK_CHIME 2 1 0
+    - BLOCK_NOTE_BLOCK_CHIME 2 1.2 10
+    - BLOCK_NOTE_BLOCK_CHIME 2 1.4 10
+  rareWin:
+    - BLOCK_NOTE_BLOCK_BELL 2 0.8 0
+    - BLOCK_NOTE_BLOCK_BELL 2 1 5
+    - BLOCK_NOTE_BLOCK_BELL 2 1.2 5
+    - BLOCK_NOTE_BLOCK_BELL 2 1.4 5
+    - BLOCK_NOTE_BLOCK_BELL 2 1.6 5
+  jackpot:
+    - UI_TOAST_CHALLENGE_COMPLETE 1 1 0
+  lotteryWin:
+    - UI_TOAST_CHALLENGE_COMPLETE 1 1 0
+  crashWin:
+    - BLOCK_NOTE_BLOCK_BELL 2 0.8 0
+    - BLOCK_NOTE_BLOCK_BELL 2 1 5
+    - BLOCK_NOTE_BLOCK_BELL 2 1.2 5
+    - BLOCK_NOTE_BLOCK_BELL 2 1.4 5
+    - BLOCK_NOTE_BLOCK_BELL 2 1.6 5
+  blackjackWin:
+    - BLOCK_NOTE_BLOCK_BELL 2 0.8 0
+    - BLOCK_NOTE_BLOCK_BELL 2 1 5
+    - BLOCK_NOTE_BLOCK_BELL 2 1.2 5
+    - BLOCK_NOTE_BLOCK_BELL 2 1.4 5
+    - BLOCK_NOTE_BLOCK_BELL 2 1.6 5
+
+Chair:
+  material: STICK
+  customModelData: 511
+  Offset:
+    x: 2
+    y: -1
+    z: 0

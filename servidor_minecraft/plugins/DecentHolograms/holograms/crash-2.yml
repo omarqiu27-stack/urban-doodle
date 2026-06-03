@@ -1,0 +1,14 @@
+location: world:-5.490:77.700:-102.700
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: 
+    height: 0.3
+  - content: '&7%sg_crash_status_02d011d0-e7a4-4c46-a8f6-49cef897a587%'
+    height: 0.3
+  actions: {}

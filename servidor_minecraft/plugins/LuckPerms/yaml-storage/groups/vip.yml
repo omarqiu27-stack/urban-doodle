@@ -1,0 +1,33 @@
+name: vip
+permissions:
+- auctionmaster.limit.auctions.14
+- auctionmaster.limit.duration.16
+- autotool.use
+- betterrtp.config.vip
+- chatmanager.bypass.chatdelay
+- chatmanager.toggle.pm
+- displayname.
+- essentials.depth
+- essentials.disposal
+- essentials.getpos
+- essentials.kits.vip
+- essentials.loom
+- essentials.me
+- essentials.workbench
+- pci.cartography
+- pci.craft
+- pci.grindstone
+- pci.loom
+- pci.stonecutter
+- smartcore.doubledoors.iron_doors
+- smartcore.droptoinventory.use
+- ultimateclaims.maxclaims.18
+- ultimateclaims.name
+- ultimateclaims.show
+- ultimateclaims.toggle.leafdecay
+- ultimateclaims.toggle.mobgriefing
+parents:
+- default
+prefixes:
+- '&f&a':
+    priority: 999

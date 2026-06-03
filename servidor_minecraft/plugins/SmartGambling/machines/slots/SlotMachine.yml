@@ -1,0 +1,434 @@
+Machine:
+  material: STICK
+  customModelData: 514
+  Offset:
+    x: 0
+    y: 0
+    z: 0
+Items:
+  Septar:
+    material: STICK
+    customModelData: 501
+    name: '&f'
+    chance: 5
+    sound: 'rare_item'
+  Struguri:
+    material: STICK
+    customModelData: 508
+    name: '&f'
+    chance: 7
+  Pepeni:
+    material: STICK
+    customModelData: 505
+    name: '&f'
+    chance: 8
+  Stea:
+    material: STICK
+    customModelData: 506
+    name: '&f'
+    chance: 15
+    equivalent:
+      - Septar
+      - Struguri
+      - Pepeni
+      - Pruna
+      - Lamaie
+      - Portocale
+      - Cirese
+  Pruna:
+    material: STICK
+    customModelData: 504
+    name: '&f'
+    chance: 12
+  Lamaie:
+    material: STICK
+    customModelData: 503
+    name: '&f'
+    chance: 12
+  Portocale:
+    material: STICK
+    customModelData: 507
+    name: '&f'
+    chance: 13
+  Cirese:
+    material: STICK
+    customModelData: 502
+    name: '&f'
+    chance: 26
+
+######################################
+
+Categories:
+  Valoare:
+    - Struguri
+    - Pepeni
+
+######################################
+
+Rewards:
+  '1':
+    Requirements:
+      type: 'row'
+      item: 'Septar'
+      amount: 3
+    Reward:
+      moneyMultiplier: 10
+      sound: 'jackpot'
+  '2':
+    Requirements:
+      type: 'row'
+      item: 'Septar'
+      amount: 4
+    Reward:
+      moneyMultiplier: 20
+      sound: 'jackpot'
+  '3':
+    Requirements:
+      type: 'row'
+      item: 'Septar'
+      amount: 5
+    Reward:
+      moneyMultiplier: 50
+      sound: 'jackpot'
+  '4':
+    Requirements:
+      type: 'row'
+      item: 'Septar'
+      amount: 3
+      startingLine: 1
+    Reward:
+      moneyMultiplier: 25
+      sound: 'jackpot'
+  '5':
+    Requirements:
+      type: 'row'
+      item: 'Septar'
+      amount: 2
+      startingLine: 1
+    Reward:
+      moneyMultiplier: 3
+      sound: 'jackpot'
+  '6':
+    Requirements:
+      type: 'row'
+      item: 'Struguri'
+      amount: 3
+    Reward:
+      moneyMultiplier: 5
+      sound: 'rareWin'
+  '7':
+    Requirements:
+      type: 'row'
+      item: 'Struguri'
+      amount: 4
+    Reward:
+      moneyMultiplier: 10
+      sound: 'rareWin'
+  '8':
+    Requirements:
+      type: 'row'
+      item: 'Struguri'
+      amount: 5
+    Reward:
+      moneyMultiplier: 20
+      sound: 'rareWin'
+  '9':
+    Requirements:
+      type: 'row'
+      item: 'Pepeni'
+      amount: 3
+    Reward:
+      moneyMultiplier: 5
+      sound: 'rareWin'
+  '10':
+    Requirements:
+      type: 'row'
+      item: 'Pepeni'
+      amount: 4
+    Reward:
+      moneyMultiplier: 10
+      sound: 'rareWin'
+  '11':
+    Requirements:
+      type: 'row'
+      item: 'Pepeni'
+      amount: 5
+    Reward:
+      moneyMultiplier: 20
+      sound: 'rareWin'
+  '12':
+    Requirements:
+      type: 'row'
+      item: 'Valoare'
+      amount: 5
+    Reward:
+      moneyMultiplier: 10
+      sound: 'rareWin'
+  '13':
+    Requirements:
+      type: 'row'
+      item: 'Stea'
+      amount: 4
+    Reward:
+      moneyMultiplier: 5
+      sound: 'slotsWin'
+  '14':
+    Requirements:
+      type: 'row'
+      item: 'Stea'
+      amount: 5
+    Reward:
+      moneyMultiplier: 15
+      sound: 'slotsWin'
+  '15':
+    Requirements:
+      type: 'row'
+      item: 'Pruna'
+      amount: 3
+    Reward:
+      moneyMultiplier: 3
+      sound: 'slotsWin'
+  '16':
+    Requirements:
+      type: 'row'
+      item: 'Pruna'
+      amount: 4
+    Reward:
+      moneyMultiplier: 5
+      sound: 'slotsWin'
+  '17':
+    Requirements:
+      type: 'row'
+      item: 'Pruna'
+      amount: 5
+    Reward:
+      moneyMultiplier: 10
+      sound: 'slotsWin'
+  '18':
+    Requirements:
+      type: 'row'
+      item: 'Lamaie'
+      amount: 3
+    Reward:
+      moneyMultiplier: 3
+      sound: 'slotsWin'
+  '19':
+    Requirements:
+      type: 'row'
+      item: 'Lamaie'
+      amount: 4
+    Reward:
+      moneyMultiplier: 5
+      sound: 'slotsWin'
+  '20':
+    Requirements:
+      type: 'row'
+      item: 'Lamaie'
+      amount: 5
+    Reward:
+      moneyMultiplier: 10
+      sound: 'slotsWin'
+  '21':
+    Requirements:
+      type: 'row'
+      item: 'Portocale'
+      amount: 3
+    Reward:
+      moneyMultiplier: 3
+      sound: 'slotsWin'
+  '22':
+    Requirements:
+      type: 'row'
+      item: 'Portocale'
+      amount: 4
+    Reward:
+      moneyMultiplier: 5
+      sound: 'slotsWin'
+  '23':
+    Requirements:
+      type: 'row'
+      item: 'Portocale'
+      amount: 5
+    Reward:
+      moneyMultiplier: 10
+      sound: 'slotsWin'
+  '24':
+    Requirements:
+      type: 'row'
+      item: 'Cirese'
+      amount: 4
+    Reward:
+      moneyMultiplier: 3
+      sound: 'slotsWin'
+  '25':
+    Requirements:
+      type: 'row'
+      item: 'Cirese'
+      amount: 5
+    Reward:
+      moneyMultiplier: 5
+      sound: 'slotsWin'
+
+######################################
+defaultBet: 100
+
+GUI:
+  size: 54
+  title: '&f⻔⻔⻔⻔⻔⻔⻔⻔'
+  animationDuration: 80
+  animationSpeed: 5
+  spinButton: [49, 50, 51]
+  moneyButton: [45, 36, 27, 46, 37, 28]
+  rewardsGuiButton: []
+  displaySlots: [[12, 21, 30], [13, 22, 31], [14, 23, 32], [15, 24, 33], [16, 25, 34]]
+  Items:
+    '1':
+      slot: 27
+      material: STICK
+      customModelData: 3
+      name: '&6ᴇʟɪɢᴇ ᴇʟ ᴍᴏɴᴛᴏ ᴅᴇ ʟᴀ ᴀᴘᴜᴇꜱᴛᴀ'
+      lore:
+        - '&7ᴄʟɪᴄ ᴘᴀʀᴀ ᴄʜᴏᴏꜱᴇ!'
+    '22':
+      slot: 36
+      material: STICK
+      customModelData: 3
+      name: '&6ᴇʟɪɢᴇ ᴇʟ ᴍᴏɴᴛᴏ ᴅᴇ ʟᴀ ᴀᴘᴜᴇꜱᴛᴀ'
+      lore:
+        - '&7ᴄʟɪᴄ ᴘᴀʀᴀ ᴄʜᴏᴏꜱᴇ!'
+    '3':
+      slot: 45
+      material: STICK
+      customModelData: 3
+      name: '&6ᴇʟɪɢᴇ ᴇʟ ᴍᴏɴᴛᴏ ᴅᴇ ʟᴀ ᴀᴘᴜᴇꜱᴛᴀ'
+      lore:
+        - '&7ᴄʟɪᴄ ᴘᴀʀᴀ ᴄʜᴏᴏꜱᴇ!'
+    '113':
+      slot: 46
+      material: STICK
+      customModelData: 3
+      name: '&6ᴇʟɪɢᴇ ᴇʟ ᴍᴏɴᴛᴏ ᴅᴇ ʟᴀ ᴀᴘᴜᴇꜱᴛᴀ'
+      lore:
+        - '&7ᴄʟɪᴄ ᴘᴀʀᴀ ᴄʜᴏᴏꜱᴇ!'
+    '123':
+      slot: 37
+      material: STICK
+      customModelData: 3
+      name: '&6ᴇʟɪɢᴇ ᴇʟ ᴍᴏɴᴛᴏ ᴅᴇ ʟᴀ ᴀᴘᴜᴇꜱᴛᴀ'
+      lore:
+        - '&7ᴄʟɪᴄ ᴘᴀʀᴀ ᴄʜᴏᴏꜱᴇ!'
+    '133':
+      slot: 28
+      material: STICK
+      customModelData: 3
+      name: '&6ᴇʟɪɢᴇ ᴇʟ ᴍᴏɴᴛᴏ ᴅᴇ ʟᴀ ᴀᴘᴜᴇꜱᴛᴀ'
+      lore:
+        - '&7ᴄʟɪᴄ ᴘᴀʀᴀ ᴄʜᴏᴏꜱᴇ!'
+    '4':
+      slots: [ 49, 50, 51]
+      material: STICK
+      customModelData: 3
+      name: '&eɢɪʀᴀʀ - %bet%&f'
+      lore:
+        - '&7ᴄʟɪᴄ ᴘᴀʀᴀ ꜱᴘɪɴ!'
+    '5':
+      slots: [12, 13, 14, 15, 16]
+      material: STICK
+      customModelData: 508
+      name: '&f'
+    '6':
+      slots: [21, 22, 23, 24, 25]
+      material: STICK
+      customModelData: 501
+      name: '&f'
+    '9':
+      slots: [30, 31, 32, 33, 34]
+      material: STICK
+      customModelData: 505
+      name: '&f'
+
+######################################
+
+RewardsGUI:
+  size: 45
+  title: '&8ꜱʟᴏᴛ ᴍᴀᴄʜɪɴᴇ &7- &eʀᴇᴡᴀʀᴅꜱ'
+  backButton: [40]
+  Items:
+    '1':
+      slot: 40
+      material: ARROW
+      name: '&cʙᴀᴄᴋ'
+    '2':
+      slots: [12]
+      material: STICK
+      customModelData: 501
+      name: '&aSeptar'
+      lore:
+        - '&f ▪ ʟɪɴᴇ 2: &ex3'
+        - '&f ▪ ʟɪɴᴇ 3: &ex10'
+        - '&f ▪ ʟɪɴᴇ 4: &ex20'
+        - '&f ▪ ʟɪɴᴇ 5: &ex50'
+    '3':
+      slots: [13]
+      material: STICK
+      customModelData: 508
+      name: '&aStruguri'
+      lore:
+        - '&f ▪ ʟɪɴᴇ 3: &ex5'
+        - '&f ▪ ʟɪɴᴇ 4: &ex10'
+        - '&f ▪ ʟɪɴᴇ 5: &ex20'
+    '4':
+      slots: [14]
+      material: STICK
+      customModelData: 505
+      name: '&aPepeni'
+      lore:
+        - '&f ▪ ʟɪɴᴇ 3: &ex5'
+        - '&f ▪ ʟɪɴᴇ 4: &ex10'
+        - '&f ▪ ʟɪɴᴇ 5: &ex20'
+    '5':
+      slots: [20]
+      material: STICK
+      customModelData: 504
+      name: '&aPruna'
+      lore:
+        - '&f ▪ ʟɪɴᴇ 3: &ex2'
+        - '&f ▪ ʟɪɴᴇ 4: &ex4'
+        - '&f ▪ ʟɪɴᴇ 5: &ex10'
+    '6':
+      slots: [21]
+      material: STICK
+      customModelData: 503
+      name: '&aLamaie'
+      lore:
+        - '&f ▪ ʟɪɴᴇ 3: &ex2'
+        - '&f ▪ ʟɪɴᴇ 4: &ex4'
+        - '&f ▪ ʟɪɴᴇ 5: &ex10'
+    '7':
+      slots: [22]
+      material: STICK
+      customModelData: 506
+      name: '&aStea'
+      lore:
+        - '&f ▪ ʟɪɴᴇ 4: &ex5'
+        - '&f ▪ ʟɪɴᴇ 5: &ex15'
+        - '&f'
+        - '&7ɪᴛ ᴀʟꜱᴏ ʀᴇᴘʟᴀᴄᴇꜱ ᴀɴʏ ᴏᴛʜᴇʀ'
+        - '&7ɪᴛᴇᴍ ɴᴇᴇᴅᴇᴅ ᴛᴏ ꜰᴏʀᴍ ᴀ ʟɪɴᴇ'
+    '8':
+      slots: [23]
+      material: STICK
+      customModelData: 507
+      name: '&aPortocale'
+      lore:
+        - '&f ▪ ʟɪɴᴇ 3: &ex2'
+        - '&f ▪ ʟɪɴᴇ 4: &ex4'
+        - '&f ▪ ʟɪɴᴇ 5: &ex10'
+    '9':
+      slots: [24]
+      material: STICK
+      customModelData: 502
+      name: '&aCirese'
+      lore:
+        - '&f ▪ ʟɪɴᴇ 4: &ex2'
+        - '&f ▪ ʟɪɴᴇ 5: &ex5'

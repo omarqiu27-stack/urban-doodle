@@ -1,0 +1,20 @@
+2026-06-03 21:17:30 [INFO]: Loading Overrides...
+2026-06-03 21:17:30 [INFO]: Loading World Types...
+2026-06-03 21:17:30 [INFO]: - World Type for 'playworld' set to 'NORMAL'
+2026-06-03 21:17:30 [INFO]: Loading Defaults...
+2026-06-03 21:17:30 [INFO]: Loading Custom Worlds...
+2026-06-03 21:17:30 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2026-06-03 21:17:30 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2026-06-03 21:17:30 [INFO]: Loading Permission Groups...
+2026-06-03 21:17:30 [INFO]: - Permission Group: vip
+2026-06-03 21:17:30 [INFO]: - -- World: playworld
+2026-06-03 21:17:30 [INFO]: - - MaxRadius: 5000
+2026-06-03 21:17:30 [INFO]: - - MinRadius: 500
+2026-06-03 21:17:30 [INFO]: - - Price: 500
+2026-06-03 21:17:32 [INFO]: Database QUEUE:Queue configured and loaded!
+2026-06-03 21:17:32 [INFO]: Database PLAYERS:Players configured and loaded!
+2026-06-03 21:17:32 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2026-06-03 21:17:43 [INFO]: Attempting to queue up some more safe locations...
+2026-06-03 21:17:45 [INFO]: Queueing paused, max queue limit reached!
+2026-06-03 21:21:42 [INFO]: -Removed a queue Location{world=CraftWorld{name=playworld},x=2581.5,y=91.0,z=1772.5,pitch=1.2620506,yaw=107.393074}
+2026-06-03 21:23:05 [INFO]: -Removed a queue Location{world=CraftWorld{name=playworld},x=-1818.5,y=90.0,z=-648.5,pitch=11.850015,yaw=90.14292}

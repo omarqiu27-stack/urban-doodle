@@ -1,0 +1,112 @@
+# All messages are customizable, you can use HEX colors using &#RRGGBB (1.16+).
+
+# NPC related messages.
+#
+# Available placeholders:
+# %croupier% - the croupier name. (@croupier-prefix)
+npc:
+  croupier-prefix: "&b%croupier%: "
+  bets:
+    - "&7¡Hagan sus apuestas, damas y caballeros, por favor!"
+    - "&7Hagan sus apuestas, mis amigos."
+    - "&7Damas y caballeros, hagan sus apuestas."
+    - "&7Hagan sus apuestas y tomen sus asientos."
+  no-bets:
+    - "&7Y la rueda da vueltas y vueltas, no más apuestas, no más apuestas."
+    - "&7¡No más apuestas, no más apuestas!"
+    - "&7Muy bien, eso es todo."
+  winner:
+    - "&7Nosotros tenemos un ganador."
+    - "&7Escucha, tenemos un ganador aquí."
+    - "&7¡Tenemos un ganador, damas y caballeros!"
+
+# Command related messages.
+#
+# Avalaible placeholders:
+# %name% - the name of the game. (for all except @creating and @wait)
+command:
+  create: "&f ¡El juego &e%name% &fha sido creado!"
+  delete: "&f ¡El juego &e%name% &fha sido eliminado!"
+  exist: "&f ¡El juego &e%name% &falya existe!"
+  unknown: "&f ¡El &e%name% &ejuego no existe!"
+  sintax: "&f ¡Comando inválido! comprobar la sintaxis correcta con /roulette."
+  from-console: "&f ¡Este comando no se puede ejecutar desde la consola!"
+  not-permission: "&f ¡No tienes permiso para ejecutar este comando!"
+  reload: "&f ¡Los archivos de configuración han sido recargados!"
+
+# Game related messages.
+#
+# Available placeholders:
+# %seconds% - the countdown time involved. (@starting and @spinning)
+# %bet% - the selected bet of the player. (@your-bet)
+# %numbers% - the numbers that belongs to the slot. (@your-bet)
+# %chance% - chance of winning. (@your-bet)
+# %player% - the player involved. (@join and @leave)
+# %playing% - amount of players in the game. (@join and @leave)
+# %max% - the maximum amount of players allowed. (@join and @leave)
+# %amount% - the amount of winners in the game. (@winners and @price)
+# %winners% - a list with the names of the winners, separated by commas. (@winners)
+# %multiplier% - the prize multiplier, depending on the slot. (@price)
+# %winner% - the winning slot. (@no-winner & @winner)
+game:
+  starting: "&f Comenzando el juego en &e%seconds% &fsegundos..."
+  select-bet: "&f Por favor, seleccione su apuesta."
+  spinning: "&f Girar la ruleta en &e%seconds% &fsegundos..."
+  out-of-time: "&f No has hecho tu apuesta, estás fuera del juego."
+  your-bet:
+    - "&7"
+    - "&7 ▪ &fTu apuesta: %bet% &f%numbers%"
+    - "&7 ▪ &fOportunidad de ganar: &e%chance%"
+    - "&7"
+  spinning-start: "&f Hilado..."
+  join: "&f &e%player% &fse ha unido al juego. &7(&e%playing%&7/&e%max%&7)"
+  leave: "&f &e%player% &fha abandonado el juego. &7(&e%playing%&7/&e%max%&7)"
+  no-winner: "&cEl ganador es ... el casino! %winner%"
+  winners:
+    - "&7"
+    - "&7 ▪ &fGanadores (%amount%): &e%winners%"
+    - "&7 ▪ &f¿Qué esperas para jugar? ¡Puedes ganar mucho dinero!"
+    - "&7 ▪ &fTragamonedas ganador: &e%winner%"
+    - "&7"
+  price: "&f ¡Ganaste &e%amount% &7(x%multiplier% MULTIPLICADOR)!"
+  restart: "&f Reiniciando juego, por favor espera..."
+  leave-player: "&f ¡Has dejado el juego!"
+  la-partage: "&f ¡Has ganado la mitad de tu dinero gracias a &eLa Partage &fregla!"
+  en-prison: "&f ¡Has ganado tu dinero original debido a &eEn Prison &fregla!"
+  surrender: "&f ¡Has ganado la mitad de tu dinero gracias a la &eregla de &fSurrender!"
+
+# Avalaible placeholders.
+# %money% - the money involved. (@min-required, @selected-amount and @received)
+# %name% - the name of the game. (@received)
+other:
+  already-ingame: "&f ¡Ya estás en el juego!"
+  already-started: "&f El juego ya ha comenzado."
+  min-required: "&f Lo siento, pero necesitas al menos &e%money% &fpara jugar."
+  selected-amount: "&f &e%money% &fserá tomado de su cuenta."
+  control: "&f Utilice las teclas WASD para elegir una apuesta."
+  account: "&f ¡La cuenta ha sido cambiada!"
+  no-account: "&f ¡La cuenta del juego ha sido eliminada!"
+  unknown-account: "&f ¡No se pudo encontrar al jugador!"
+  received: "&f Has recibido &a%money% &6del juego &7%name%&6."
+  vanish: "&f No puedes unirte al juego en modo de desaparición."
+  full: "&f ¡Este juego está lleno!"
+  restarting: "&f ¡El juego se está reiniciando!"
+  model-not-loaded: "&f ¡Por favor, espere a que se cargue el modelo!"
+  only-american: "&f ¡Esta regla solo se puede aplicar en la ruleta americana!"
+  prison-error: "&f Para aplicar esta regla, la cantidad mínima de jugadores debe ser 1."
+  can-not-hit: "&f ¡No puedes golpear a los jugadores en un juego!"
+  account-name: "&f Escriba el nombre de la cuenta o 'cancel' para salir."
+  npc-name: "&f Escribe el nuevo nombre del NPC o 'cancel' para salir."
+  npc-texture: "&f Escriba la URL de minesk.in, o 'cancel' para salir."
+  request-cancelled: "&f ¡La solicitud ha sido cancelada!"
+  request-invalid: "&f ¡La entrada dada no es válida!"
+  npc-renamed: "&f ¡El nombre del NPC ha sido cambiado!"
+  npc-texturized: "&f ¡La textura del NPC ha sido cambiada!"
+
+help:
+  - "&7"
+  - "&aComandos de ruleta:"
+  - " &7▪ /roulette create <nombre> <escribe> - crear una nueva ruleta."
+  - " &7▪ /roulette delete <nombre> - eliminar un juego."
+  - " &7▪ /roulette reload - recargar archivos de configuración."
+  - " &7▪ /roulette map - da un cupón ganador."

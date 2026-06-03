@@ -1,0 +1,351 @@
+ShopName: HatsShop
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔'
+Command: HatsShop
+signs:
+  text: '[Hats]'
+  NeedPermissionToCreateSign: true
+shop:
+  1:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aCorona
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:19
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:19,display:{Name:'[{"text":"&8▪ &fCorona","italic":false}]'}}
+    PriceType: MONEY
+    Price: 10000
+    Message: '&f &fCompraste un &eCorona &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 12
+  2:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aSombrero Tiki
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:1
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:1,display:{Name:'[{"text":"&8▪ &fSombrero Tiki","italic":false}]'}}
+    PriceType: MONEY
+    Price: 6500
+    Message: '&f &fCompraste un &eSombrero Tiki &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+  3:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aSombrero de cuernos de vikingo
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:5
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:5,display:{Name:'[{"text":"&8▪ &fSombrero de cuernos de vikingo","italic":false}]'}}
+    PriceType: MONEY
+    Price: 5500
+    Message: '&f &fCompraste un &eSombrero de cuernos de vikingo &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 14
+  4:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aSombrero vikingo
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:3
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:3,display:{Name:'[{"text":"&8▪ &fSombrero vikingo","italic":false}]'}}
+    PriceType: MONEY
+    Price: 6750
+    Message: '&f &fCompraste un &eSombrero vikingo &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 15
+  5:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aCasco vikingo
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:4
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:4,display:{Name:'[{"text":"&8▪ &fCasco vikingo","italic":false}]'}}
+    PriceType: MONEY
+    Price: 8000
+    Message: '&f &fCompraste un &eCasco vikingo &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 16
+  7:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aGafas de sol
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:9
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:9,display:{Name:'[{"text":"&8▪ &fGafas de sol","italic":false}]'}}
+    PriceType: MONEY
+    Price: 800
+    Message: '&f &fCompraste un pair of &eGafas de sol &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 20
+  8:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aCírculo sagrado
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:17
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:17,display:{Name:'[{"text":"&8▪ &fCírculo sagrado","italic":false}]'}}
+    PriceType: MONEY
+    Price: 1500
+    Message: '&f &fCompraste un &eCírculo sagrado &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 21
+  9:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aMascarilla
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:18
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:18,display:{Name:'[{"text":"&8▪ &fMascarilla","italic":false}]'}}
+    PriceType: MONEY
+    Price: 400
+    Message: '&f &fCompraste un &eMascarilla &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+  10:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aOrejas de conejo
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:12
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:12,display:{Name:'[{"text":"&8▪ &fOrejas de conejo","italic":false}]'}}
+    PriceType: MONEY
+    Price: 650
+    Message: '&f &fCompraste un pair of &eOrejas de conejo &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 23
+  11:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aCuernos de venado
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:10
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:10,display:{Name:'[{"text":"&8▪ &fCuernos de venado","italic":false}]'}}
+    PriceType: MONEY
+    Price: 2350
+    Message: '&f &fCompraste un pair of &eCuernos de venado &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 24
+  12:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aGorro
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:7
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:7,display:{Name:'[{"text":"&8▪ &fGorro","italic":false}]'}}
+    PriceType: MONEY
+    Price: 1800
+    Message: '&f &fCompraste un &eGorro &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 25
+  13:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aSombrero de invierno
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:6
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:6,display:{Name:'[{"text":"&8▪ &fSombrero de invierno","italic":false}]'}}
+    PriceType: MONEY
+    Price: 2300
+    Message: '&f &fCompraste un &eSombrero de invierno &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 26
+  14:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aGorro de piel
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:14
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:14,display:{Name:'[{"text":"&8▪ &fGorro de piel","italic":false}]'}}
+    PriceType: MONEY
+    Price: 2500
+    Message: '&f &fCompraste un &eGorro de piel &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 29
+  15:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aCasco de seguridad
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:16
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:16,display:{Name:'[{"text":"&8▪ &fCasco de seguridad","italic":false}]'}}
+    PriceType: MONEY
+    Price: 3250
+    Message: '&f &fCompraste un &eCasco de seguridad &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 30
+  16:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aSombrero de copa
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:15
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:15,display:{Name:'[{"text":"&8▪ &fSombrero de copa","italic":false}]'}}
+    PriceType: MONEY
+    Price: 2750
+    Message: '&f &fCompraste un &eSombrero de copa &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+  17:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aBretón
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:20
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:20,display:{Name:'[{"text":"&8▪ &fBretón","italic":false}]'}}
+    PriceType: MONEY
+    Price: 3100
+    Message: '&f &fCompraste un &eBretón &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 32
+  18:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aHomburgo
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:11
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:11,display:{Name:'[{"text":"&8▪ &fHomburgo","italic":false}]'}}
+    PriceType: MONEY
+    Price: 4000
+    Message: '&f &fCompraste un &eHomburgo &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 33
+  19:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aJunta de mortero
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:13
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:13,display:{Name:'[{"text":"&8▪ &fJunta de mortero","italic":false}]'}}
+    PriceType: MONEY
+    Price: 4500
+    Message: '&f &fCompraste un &eJunta de mortero &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 34
+  20:
+    MenuItem:
+    - 'lore1: &f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    - name:&aSombrero de bruja
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:2
+    RewardType: COMMAND
+    Reward:
+    - give %player% leather_horse_armor 1 {CustomModelData:2,display:{Name:'[{"text":"&8▪ &fSombrero de bruja","italic":false}]'}}
+    PriceType: MONEY
+    Price: 5000
+    Message: '&f &fCompraste un &eSombrero de bruja &fpara &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 35
+  HAT_BLOCK:
+    MenuItem:
+    - name:&aᴄᴏᴍᴀɴᴅᴏ ᴅᴇ ꜱᴏᴍʙʀᴇʀᴏ
+    - amount:1
+    - type:book
+    - 'lore1:&7ᴘᴀʀᴀ ᴜꜱᴀʀ ᴇꜱᴛᴏꜱ ꜱᴏᴍʙʀᴇʀᴏꜱ#&7ɴᴇᴄᴇꜱɪᴛᴀꜱ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ &f/ʜᴀᴛ &7.'
+    - 'lore3:&f'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 52
+    Condition:
+    - type:permission
+    - match:smartcore.hat.use
+  HAT:
+    MenuItem:
+    - name:&aᴄᴏᴍᴀɴᴅᴏ ᴅᴇ ꜱᴏᴍʙʀᴇʀᴏ
+    - amount:1
+    - type:book
+    - 'lore1:&7ᴘᴀʀᴀ ᴜꜱᴀʀ ᴇꜱᴛᴏꜱ ꜱᴏᴍʙʀᴇʀᴏꜱ#&7ɴᴇᴄᴇꜱɪᴛᴀꜱ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ &f/ʜᴀᴛ &7.'
+    - 'lore3:&f  ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%#&f#&f'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set smartcore.hat.use
+    PriceType: MONEY
+    Price: 3500
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 52
+####################################################################################################################
+  Back:
+    MenuItem:
+    - name:&cᴀᴛʀᴀꜱ
+    - type:stick
+    - custommodeldata:3
+    RewardType: SHOP
+    Reward: Menu
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 49
+  Back2:
+    MenuItem:
+    - name:&cᴀᴛʀᴀꜱ
+    - type:stick
+    - custommodeldata:3
+    RewardType: SHOP
+    Reward: Menu
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+  Back3:
+    MenuItem:
+    - name:&cᴀᴛʀᴀꜱ
+    - type:stick
+    - custommodeldata:3
+    RewardType: SHOP
+    Reward: Menu
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51

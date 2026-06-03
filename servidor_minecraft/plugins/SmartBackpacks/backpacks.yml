@@ -1,0 +1,85 @@
+Backpacks:
+  Backpack1:
+    size: 9 # Must be a multiple of 9 less than or equal to 54
+    title: '&8ɴɪᴠᴇʟ ᴅᴇ ᴍᴏᴄʜɪʟᴀ ɪ'
+    material: leather_horse_armor
+    customModelData: 100
+    name: '&aɴɪᴠᴇʟ ᴅᴇ ᴍᴏᴄʜɪʟᴀ ɪ'
+    lore:
+      - '&8ᴇꜱᴘᴀᴄɪᴏꜱ: 9'
+      - ''
+      - '&bᴇʟᴇᴍᴇɴᴛᴏꜱ'
+      - '%items_preview%'
+      - ''
+      - ''
+      - '&f'
+  Backpack2:
+    size: 18 # Must be a multiple of 9 less than or equal to 54
+    title: '&8ɴɪᴠᴇʟ ᴅᴇ ᴍᴏᴄʜɪʟᴀ ɪɪ'
+    material: leather_horse_armor
+    customModelData: 101
+    name: '&aɴɪᴠᴇʟ ᴅᴇ ᴍᴏᴄʜɪʟᴀ ɪɪ'
+    lore:
+      - '&8ᴇꜱᴘᴀᴄɪᴏꜱ: 18'
+      - ''
+      - '&bᴇʟᴇᴍᴇɴᴛᴏꜱ'
+      - '%items_preview%'
+      - ''
+      - ''
+      - '&f'
+  Backpack3:
+    size: 27 # Must be a multiple of 9 less than or equal to 54
+    title: '&8ɴɪᴠᴇʟ ᴅᴇ ᴍᴏᴄʜɪʟᴀ ɪɪɪ'
+    material: leather_horse_armor
+    customModelData: 102
+    name: '&aɴɪᴠᴇʟ ᴅᴇ ᴍᴏᴄʜɪʟᴀ ɪɪɪ'
+    lore:
+      - '&8ᴇꜱᴘᴀᴄɪᴏꜱ: 27'
+      - ''
+      - '&bᴇʟᴇᴍᴇɴᴛᴏꜱ'
+      - '%items_preview%'
+      - ''
+      - ''
+      - '&f'
+  Backpack4:
+    size: 36 # Must be a multiple of 9 less than or equal to 54
+    title: '&8ɴɪᴠᴇʟ ᴅᴇ ᴍᴏᴄʜɪʟᴀ ɪᴠ'
+    material: leather_horse_armor
+    customModelData: 105
+    name: '&aɴɪᴠᴇʟ ᴅᴇ ᴍᴏᴄʜɪʟᴀ ɪᴠ'
+    lore:
+      - '&8ᴇꜱᴘᴀᴄɪᴏꜱ: 36'
+      - ''
+      - '&bᴇʟᴇᴍᴇɴᴛᴏꜱ'
+      - '%items_preview%'
+      - ''
+      - ''
+      - '&f'
+  Backpack5:
+    size: 45 # Must be a multiple of 9 less than or equal to 54
+    title: '&8ɴɪᴠᴇʟ ᴅᴇ ᴍᴏᴄʜɪʟᴀ ᴠ'
+    material: leather_horse_armor
+    customModelData: 104
+    name: '&aɴɪᴠᴇʟ ᴅᴇ ᴍᴏᴄʜɪʟᴀ ᴠ'
+    lore:
+      - '&8ᴇꜱᴘᴀᴄɪᴏꜱ: 45'
+      - ''
+      - '&bᴇʟᴇᴍᴇɴᴛᴏꜱ'
+      - '%items_preview%'
+      - ''
+      - ''
+      - '&f'
+  Backpack6:
+    size: 54 # Must be a multiple of 9 less than or equal to 54
+    title: '&8ɴɪᴠᴇʟ ᴅᴇ ᴍᴏᴄʜɪʟᴀ ᴠɪ'
+    material: leather_horse_armor
+    customModelData: 103
+    name: '&aɴɪᴠᴇʟ ᴅᴇ ᴍᴏᴄʜɪʟᴀ ᴠɪ'
+    lore:
+      - '&8ᴇꜱᴘᴀᴄɪᴏꜱ: 54'
+      - ''
+      - '&bᴇʟᴇᴍᴇɴᴛᴏꜱ'
+      - '%items_preview%'
+      - ''
+      - ''
+      - '&f'

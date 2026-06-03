@@ -1,0 +1,13 @@
+Name: §aClave Equilibrada
+Virtual: false
+Item:
+  Material: STICK
+  Custom_Model_Data: 142
+  Amount: 1
+  Durability: 0
+  Name: '&aClave Equilibrada'
+  Lore:
+  - '&7Con esta llave ud'
+  - '&7puede abrir caja equilibrada'
+  Item_Flags: []
+  Unbreakable: false

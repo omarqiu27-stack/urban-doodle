@@ -1,0 +1,236 @@
+ShopName: Help2
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔'
+Command: Help2
+signs:
+  text: '[Help]'
+  NeedPermissionToCreateSign: true
+shop:
+  Back:
+    MenuItem:
+    - name:&cᴀᴛʀᴀꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:3
+    RewardType: SHOP
+    Reward: Profile
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+  PreviousPage:
+    MenuItem:
+    - name:&8ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:3
+    RewardType: SHOP
+    Reward: Help
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 47
+  NextPage:
+    MenuItem:
+    - name:&8ɴᴇxᴛ ᴘᴀɢᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:3
+    RewardType: SHOP
+    Reward: Help3
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 53
+  17:
+    MenuItem:
+    - name:&aᴇᴅɪᴛᴀʙʟᴇ ꜱɪɢɴꜱ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRhZGQ0NGY0MjI3MTc5OWY2NTY3YzE1NjhmMmEzYThiNzViNWNmMWZjNmMwZWRmNjVkZWRhMTU2YWJiYWFjOCJ9fX0=
+    - 'lore1:&7ʟᴏꜱ ꜱɪɢɴᴏꜱ ᴄᴏʟᴏᴄᴀᴅᴏꜱ ꜱᴇ ᴘᴜᴇᴅᴇɴ ᴇᴅɪᴛᴀʀ ꜱɪɴ#&7ᴛᴇɴᴇʀ qᴜᴇ ʀᴏᴍᴘᴇʀʟᴏꜱ.'
+    - 'lore3:&c&l| &cᴇꜱᴛᴇ ꜱɪꜱᴛᴇᴍᴀ ʀᴇqᴜɪᴇʀᴇ ᴘᴇʀᴍɪꜱᴏ ᴘᴀʀᴀ ᴜᴛɪʟɪᴢᴀʀ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  18:
+    MenuItem:
+    - name:&aᴇᴍᴏᴊɪꜱ
+    - amount:1
+    - type:player_head
+    - 'lore1:&ᴘᴜᴇᴅᴇꜱ ᴀɴᴀᴅɪʀ ᴜɴ ᴛᴏqᴜᴇ ᴇꜱᴛᴇᴛɪᴄᴏ ᴀ ᴛᴜꜱ ᴍᴇɴꜱᴀᴊᴇꜱ ᴏ ᴜᴛɪʟɪᴢᴀʀ ᴜɴ ʟᴇɴɢᴜᴀᴊᴇ ᴇxᴘʀᴇꜱɪᴠᴏ ᴀ ᴛʀᴀᴠᴇꜱ ᴅᴇ ʟᴏꜱ ᴍᴇɴꜱᴀᴊᴇꜱ.' 
+    - 'lore3:&c&l| &cᴇꜱᴛᴇ ꜱɪꜱᴛᴇᴍᴀ ʀᴇqᴜɪᴇʀᴇ ᴘᴇʀᴍɪꜱᴏ ᴘᴀʀᴀ ᴜᴛɪʟɪᴢᴀʀ'
+    - 'lore5:&eTipo &l/emojis &epara la lista de emojis' 
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjRmZDg0MWVhNmYyZTc5MTkwMzVkMTYyZmFiZDkyZDEwOWUzOWRkNDFiN2MzYmUyMDU2ZTlmZjVmMzhlYzcyNSJ9fX0=
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+  19:
+    MenuItem:
+    - name:&aᴇꜱꜱᴇɴᴛɪᴀʟꜱ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ1ODY0NzYxNzZhMjU2NDczODE4YTE4NDkxNTdlODQ0YzU2Mzg3MjRiY2Y4MzA5ZjBkOWRmMjdjYTk1OTE2MCJ9fX0=
+    - customskull:
+    - hideflags:HIDE_ATTRIBUTES
+    - 'lore1:&7ᴠᴀʀɪᴀꜱ ᴄᴀʀᴀᴄᴛᴇʀɪꜱᴛɪᴄᴀꜱ qᴜᴇ ᴍᴇᴊᴏʀᴀɴ ʟᴀ ᴄᴀʟɪᴅᴀᴅ#&7ᴅᴇ ᴊᴜᴇɢᴏ ᴇꜱᴛᴀɴ ᴘʀᴇꜱᴇɴᴛᴇꜱ ᴇɴ ᴇʟ ꜱᴇʀᴠɪᴅᴏʀ.'
+    - 'lore3:&eTipo &e&l/ess help&e para la lista de comandos'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+  20:
+    MenuItem:
+    - name:&aꜰᴀʀᴍꜱ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDk1ZGE0YjQyNGM2NjJmOTEwNTEwMzgyZGQxMTdmNTY5OTFjYThlY2ZiN2UxOTI3MjhhOWI4NmM5M2FhZmFiZSJ9fX0=
+    - 'lore1:&7ʟᴏꜱ ᴊᴜɢᴀᴅᴏʀᴇꜱ ᴘʀɪɴᴄɪᴘɪᴀɴᴛᴇꜱ qᴜᴇ ᴛɪᴇɴᴇɴ ᴍᴇɴᴏꜱ ᴅᴇ 5 ʜᴏʀᴀꜱ#&7ᴊᴜɢᴀᴅᴀꜱ ᴘᴜᴇᴅᴇɴ ᴇɴᴛʀᴀʀ ᴀ ʟᴀꜱ ɢʀᴀɴᴊᴀꜱ, ᴀʟʟɪ ᴘᴜᴇᴅᴇꜱ ᴇɴᴄᴏɴᴛʀᴀʀ#&7ᴍᴜᴄʜᴏꜱ ᴄᴜʟᴛɪᴠᴏꜱ ʏ ᴛᴇɴᴇʀ ᴜɴ ᴍᴇᴊᴏʀ ᴄᴏᴍɪᴇɴᴢᴏ'
+    - 'lore3:&eTipo &e&l/warp farm e para teletransportarte'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+  21:
+    MenuItem:
+    - name:&aꜰᴜʀɴɪᴛᴜʀᴇꜱ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQyNjNmYmEyZTIzMDZmOTk0YjQwZTNlYjA3YjUwMTIzOGJkMmNmNWM5YWM3MTEyNmZjMTljN2I3NWRjMjVmNSJ9fX0=
+    - 'lore1:&7ᴇʟᴇᴍᴇɴᴛᴏꜱ ᴄᴏɴ ᴜɴ ᴀꜱᴘᴇᴄᴛᴏ ᴅᴇᴄᴏʀᴀᴛɪᴠᴏ ʏ ᴘʀᴀᴄᴛɪᴄᴏ#&7ʀᴏʟᴇ. ꜱᴇ ᴜᴛɪʟɪᴢᴀɴ ᴄᴏᴍᴏ ᴜɴ ʙʟᴏqᴜᴇ ɴᴏʀᴍᴀʟ, ᴘᴜᴅɪᴇɴᴅᴏ#&7ᴘᴀʀᴀ ꜱᴇʀ ᴄᴏʟᴏᴄᴀᴅᴏ ᴍᴜʏ ꜰᴀᴄɪʟᴍᴇɴᴛᴇ, ᴘᴇʀᴏ ᴛᴀᴍʙɪᴇɴ ᴍᴀɴᴇᴊᴀᴅᴏ ʏ#&7ᴜꜱᴏ. ᴘᴜᴇᴅᴇ ᴀʟᴍᴀᴄᴇɴᴀʀ ᴀʀᴛɪᴄᴜʟᴏꜱ, ᴘᴏɴᴇʀꜱᴇ ᴅᴇ ᴘɪᴇ ꜱᴏʙʀᴇ ᴇʟʟᴏꜱ ʏ ᴍᴀꜱ.'
+    - 'lore3:&eTipo &e&l/fhelp &epara la lista de comandos'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+  22:
+    MenuItem:
+    - name:&aɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ᴄʜᴀᴛ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk1ZWFhOTJkMmViOTY5NDI4NGI0ZTk4Y2FkZWNmZDdhODIzMjU2YmFkNWEzOTQ1OThmNjMyNGNmZTdmNzM3YiJ9fX0=
+    - 'lore1:&7ᴀ ᴛʀᴀᴠᴇꜱ ᴅᴇ ᴀᴄᴄᴇꜱᴏꜱ ᴅɪʀᴇᴄᴛᴏꜱ ꜱᴇɴᴄɪʟʟᴏꜱ ᴜꜱᴛᴇᴅ ᴘᴜᴇᴅᴇ ᴍᴏꜱᴛʀᴀʀ ꜱᴜ#&7ɪɴᴠᴇɴᴛᴀʀɪᴏ, ᴄᴏᴏʀᴅᴇɴᴀᴅᴀꜱ ᴅᴇ ᴀʀᴛɪᴄᴜʟᴏꜱ ʏ ᴍᴀꜱ ᴇɴ ᴇʟ ᴄʜᴀᴛ,#&7ᴛᴀᴍʙɪᴇɴ ᴘᴜᴇᴅᴇꜱ ᴇᴛɪqᴜᴇᴛᴀʀ ᴀ ᴀʟɢᴜɪᴇɴ ᴏ ᴇɴᴠɪᴀʀʟᴏ ᴀ ᴜɴ#&7ᴊᴜɢᴀᴅᴏʀ ᴇꜱᴘᴇᴄɪꜰɪᴄᴏ.'
+    - 'lore3:&eTipo &e&l/ichelp &epor placeholders'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+  23:
+    MenuItem:
+    - name:&aɪɴᴠᴇɴᴛᴏʀʏ ᴘɪᴄᴋᴜᴘ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmRkNTgyNTdlZmUyOGJjYmM2M2U4NTUzZWU3MzlhMThmYjMzYmVjNGYwMjI1YmM4NmE1YTVmMjdlNGFkNTQzNSJ9fX0=
+    - 'lore1:&7ʟᴏꜱ ʙʟᴏqᴜᴇꜱ qᴜᴇ ʀᴏᴍᴘᴇꜱ ʏᴀ ɴᴏ ᴇꜱᴛᴀɴ#&7ᴅʀᴏɢᴀᴅᴏ ᴇɴ ᴇʟ ꜱᴜᴇʟᴏ, ᴘᴇʀᴏ ᴠɪᴇɴᴇ ᴅɪʀᴇᴄᴛᴀᴍᴇɴᴛᴇ#&7ᴇɴ ꜱᴜ ɪɴᴠᴇɴᴛᴀʀɪᴏ'
+    - 'lore2:#&c&l| &cᴘᴜᴇᴅᴇꜱ ᴅᴇꜱᴀᴄᴛɪᴠᴀʀʟᴏ ᴅᴇꜱᴅᴇ ᴀᴊᴜꜱᴛᴇꜱ'
+    - 'lore4:&eTipo &e&l/iphelp &epara la lista de comandos'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+  24:
+    MenuItem:
+    - name:&aɪᴛᴇᴍ ꜱʜᴏᴘ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTgwMjU5NzA5ODg4OGM1OTJlMDlkNTlhMmFkZTU3NmQ3NWQzZTQ5NDY1ZDE1NzI0YjRhODc4OWQ4NjNmNWJkNCJ9fX0=
+    - 'lore1:&7ᴘᴜᴇᴅᴇꜱ ᴄᴏᴍᴘʀᴀʀ ᴜɴᴀ ᴠᴀʀɪᴇᴅᴀᴅ ᴅᴇ ᴀʀᴛɪᴄᴜʟᴏꜱ ᴄᴏᴍᴏ#&7ᴄᴏᴍᴏ ʙʟᴏqᴜᴇꜱ, ᴍᴏᴄʜɪʟᴀꜱ, ᴄᴏᴍᴀɴᴅᴏꜱ#&7ʏ ᴍᴀꜱ ᴜᴛɪʟɪᴢᴀɴᴅᴏ ꜱᴜ ᴅɪɴᴇʀᴏ'
+    - 'lore3:&eSe encuentra en &e&lMenᴜde Supervivencia'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+  25:
+    MenuItem:
+    - name:&aᴊᴏʙꜱ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQwNmU0NTMxOGU5YTRhNmJmZTEzMmYyMDJmZTNjZWFjMTVkMTFlYWVkYmVmMWViMDZhMzc2ZGI0MzMwOTBhOCJ9fX0=
+    - 'lore1:&7ɢᴀɴᴀ ᴅɪɴᴇʀᴏ ʜᴀᴄɪᴇɴᴅᴏ ʟᴏ qᴜᴇ ᴛᴇ ɢᴜꜱᴛᴀ, ᴘᴏʀ ᴇᴊᴇᴍᴘʟᴏ ꜱɪ#&7ᴛᴇ ɢᴜꜱᴛᴀ ᴄᴏᴛᴀʀ ᴀʀʙᴏʟᴇꜱ, ᴘᴜᴇᴅᴇꜱ ᴛʀᴀʙᴀᴊᴀʀ ᴄᴏᴍᴏ ʟᴇɴᴀᴅᴏʀ#&7ʏ ᴅᴇ ᴇꜱᴛᴀ ᴍᴀɴᴇʀᴀ ᴄᴏɴꜱɪɢᴜᴇꜱ ᴍᴀᴅᴇʀᴀ ʏ ᴛᴀᴍʙɪᴇɴ ᴅɪɴᴇʀᴏ'
+    - 'lore2:#&c&l| &cᴄᴜᴀɴᴛᴏ ᴍᴀꜱ ᴘʀᴀᴄᴛɪᴄᴀ ᴜɴ ᴅᴇᴛᴇʀᴍɪɴᴀᴅᴏ ᴛʀᴀʙᴀᴊᴏ#&c&l|&c ꜱᴜʙᴇ ᴅᴇ ɴɪᴠᴇʟ ʏ ɢᴀɴᴀ ᴍᴀꜱ ᴅɪɴᴇʀᴏ'
+    - 'lore4:&eTipo &e&l/jhelp&e para la lista de comandos'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+  26:
+    MenuItem:
+    - name:&aʟᴏᴛᴛᴇʀʏ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJkYTVmMzE5MzdiMmZmNzU1MjcxZDk3ZjAxYmU4NGQ1MmE0MDdiMzZjYTc3NDUxODU2MTYyYWM2Y2ZiYjM0ZiJ9fX0=
+    - 'lore1:&7ᴄᴀᴅᴀ ᴊᴜɢᴀᴅᴏʀ ᴅᴇᴘᴏꜱɪᴛᴀ ᴜɴᴀ ᴄᴀɴᴛɪᴅᴀᴅ ᴅᴇ ᴅɪɴᴇʀᴏ. ʟᴀ ᴘᴏꜱɪʙɪʟɪᴅᴀᴅ ᴅᴇ ɢᴀɴᴀʀ ꜱᴇ ᴅᴇꜰɪɴᴇ ᴘᴏʀ ꜱᴜ ᴄᴀɴᴛɪᴅᴀᴅ ᴅɪᴠɪᴅɪᴅᴀ ᴘᴏʀ ʟᴀ ᴄᴀɴᴛɪᴅᴀᴅ ᴛᴏᴛᴀʟ ᴘʀᴇꜱᴇɴᴛᴇ ᴇɴ ᴇʟ ᴘᴀʀᴛɪᴅᴏ. ᴜɴ ʜᴏᴍʙʀᴇ ꜱᴇ ʟʟᴇᴠᴀ ᴛᴏᴅᴏ ᴇʟ ᴅɪɴᴇʀᴏ.'
+    - 'lore3:&eTipo &e&l/warp casino&e teletransportarse'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+  27:
+    MenuItem:
+    - name:&aᴍɪɴᴇꜱ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDliNmFmNTVmMmYzYmJkNWIyMzM4N2Y0M2I3YzRhODQ2NzZiODZiMjg5MmY4ZjRjYzBhOWY4MTM3N2M3OSJ9fX0=
+    - hideflags:HIDE_ATTRIBUTES
+    - 'lore1:&7ᴊᴜɢᴀᴅᴏʀᴇꜱ ᴘʀɪɴᴄɪᴘɪᴀɴᴛᴇꜱ qᴜᴇ ᴛɪᴇɴᴇɴ ᴍᴇɴᴏꜱ ᴅᴇ 5 ʜᴏʀᴀꜱ#&7ᴊᴜɢᴀᴅᴏ ᴘᴜᴇᴅᴇ ᴇɴᴛʀᴀʀ ᴀ ʟᴀꜱ ᴍɪɴᴀꜱ, ᴀʜɪ ᴘᴜᴇᴅᴇꜱ ᴇɴᴄᴏɴᴛʀᴀʀ#&7ᴍɪɴᴇʀᴀꜱ ᴍᴜᴄʜᴏ ᴍᴀꜱ ꜰᴀᴄɪʟ ʏ ᴄᴏᴍɪᴇɴᴢᴀ ᴍᴇᴊᴏʀ'
+    - 'lore3:&eTipo &e&l/warp mine&e teletransportarse'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+  28:
+    MenuItem:
+    - name:&aᴍᴏʙꜱ ʜᴇᴀʟᴛʜ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY3MjE5YTQ2ZDM5NTdlMzI5MmI4MWQyZTI4Zjg2YzYzNTAxZWNiNjY3M2FjZTMyNjAzNWI1MjI5YmQ4ZGI0YSJ9fX0=
+    - 'lore1:&7ᴛᴏᴅᴏꜱ ʟᴏꜱ ᴍᴏʙꜱ ᴛɪᴇɴᴇɴ ᴜɴᴀ ʙᴀʀʀᴀ ᴅᴇ ꜱᴀʟᴜᴅ ᴇxʜɪʙɪᴅᴀ#&7ꜱᴏʙʀᴇ ꜱᴜꜱ ᴄᴀʙᴇᴢᴀꜱ ᴀꜱɪ ᴄᴏᴍᴏ ᴜɴ#&7ɪɴᴅɪᴄᴀᴅᴏʀ ᴅᴇ ᴅᴀɴᴏ.'
+    - 'lore2:#&c&l| &cᴘᴜᴇᴅᴇꜱ ᴅᴇꜱᴀᴄᴛɪᴠᴀʀʟᴏ ᴅᴇꜱᴅᴇ ᴀᴊᴜꜱᴛᴇꜱ#&c&l| &cᴏ ᴜᴛɪʟɪᴢᴀɴᴅᴏ ʟᴏꜱ ᴄᴏᴍᴀɴᴅᴏꜱ ᴅᴇʟ ᴘʟᴜɢɪɴ'
+    - 'lore4:&eTipo &e&l/mhhelp&e para la lista de comandos'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 29
+  29:
+    MenuItem:
+    - name:&aᴏᴘᴛɪᴍɪᴢᴀᴛɪᴏɴꜱ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDAwOTE0NTRmYzBjOGZjZjJkY2UyMWVkMWMzOWQ2MTcwNGZmYjkyNWZlNWMzMGI3ODBjYWU0YzUyYzFlMmIyNyJ9fX0=
+    - 'lore1:&7ᴘᴀʀᴀ ᴍᴇᴊᴏʀᴀʀ ᴇʟ ʀᴇɴᴅɪᴍɪᴇɴᴛᴏ ᴅᴇʟ ꜱᴇʀᴠɪᴅᴏʀ#&7ꜱᴇ ʜᴀɴ ʀᴇᴀʟɪᴢᴀᴅᴏ ᴄᴀᴍʙɪᴏꜱ ᴇɴ ʟᴀ ᴄᴏɴꜰɪɢᴜʀᴀᴄɪᴏɴ ᴘᴏʀ ᴅᴇꜰᴇᴄᴛᴏ'
+    - 'lore3:&7ᴄᴜᴀʟqᴜɪᴇʀ ᴀʀᴛɪᴄᴜʟᴏ ᴄᴀɪᴅᴏ ᴅᴜʀᴀɴᴛᴇ ᴍᴀꜱ ᴅᴇ 5 ᴍɪɴᴜᴛᴏꜱ ꜱᴇʀᴀ#&7ᴇʟɪᴍɪɴᴀᴅᴏ, ᴇʟ ɴᴜᴍᴇʀᴏ ᴅᴇ ᴇɴᴛɪᴅᴀᴅᴇꜱ ᴇɴ ᴜɴ ᴘᴀʀᴛᴇ ᴇꜱ ʟɪᴍɪᴛᴀᴅᴏ#&7ʏ ʟᴀꜱ ᴍᴜᴄʜᴀꜱ ʜᴏꜱᴛɪʟᴇꜱ ꜱᴏɴ ᴅᴇꜱᴀᴘᴀʀɪᴅᴀꜱ ʀᴇɢᴜʟᴀʀᴍᴇɴᴛᴇ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+  30:
+    MenuItem:
+    - name:&aᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅꜱ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZkNWY1YTZjYzU1MmQyMzdmNzQ0M2Y1MGI5N2IyZWMwMzMwOTRjYzA4YzU5NDIyYjk2OWY3YTdlNzA0OGUwNiJ9fX0=
+    - 'lore1:&7ᴇɴ ᴄɪᴇʀᴛᴏ ᴍᴏᴍᴇɴᴛᴏ ᴅᴇ ᴊᴜᴇɢᴏ, ᴛɪᴇɴᴇꜱ ᴀᴄᴄᴇꜱᴏ ᴀ#&7ᴠᴀʀɪᴀꜱ ʀᴇᴄᴏᴍᴘᴇɴꜱᴀꜱ qᴜᴇ ᴘᴜᴇᴅᴇꜱ ʀᴇᴄᴏɢᴇʀ#&7ᴇʟ ᴍᴇɴᴜᴅᴇ ʀᴇᴄᴏᴍᴘᴇɴꜱᴀꜱ'
+    - 'lore3:&eTipo &e&l/rhelp&e para la lista de comandos'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+  32:
+    MenuItem:
+    - name:&aᴘᴏʀᴛᴀʙʟᴇ ʙʟᴏᴄᴋꜱ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRjYzE4OTYzM2M3ODljYjZkNWU3OGQxM2E1MDQzYjI2ZTdiNDBjZGI3Y2ZjNGUyM2FhMjI3OTU3NDk2N2I0In19fQ==
+    - 'lore1:&7ᴄᴏɴ ᴇꜱᴛᴇ ꜱɪꜱᴛᴇᴍᴀ, ʟᴏꜱ ʙʟᴏqᴜᴇꜱ ᴄᴏɴ ꜰᴜɴᴄɪᴏɴᴇꜱ#&7ꜱᴜᴊᴇᴛᴏ ᴄᴏᴍᴏ ᴍᴇꜱᴀ ᴅᴇ ᴇɴᴄᴀɴᴛᴏ, ᴇɴᴅᴇʀᴄʜᴇꜱᴛ, ᴇᴛᴄ#&7ꜱᴇ ᴘᴜᴇᴅᴇ ᴀʙʀɪʀ ᴘʀᴀᴄᴛɪᴄᴀᴍᴇɴᴛᴇ ᴅᴏɴᴅᴇqᴜɪᴇʀᴀ qᴜᴇ ᴇꜱᴛᴇꜱ'
+    - 'lore3:&eTipo &e&l/pbhelp&e para la lista de comandos'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+  33:
+    MenuItem:
+    - name:&aᴘʀᴏꜰɪʟᴇ
+    - amount:1
+    - type:player_head
+    - playerhead:%player_name%
+    - 'lore1:&7ᴘᴜᴇᴅᴇꜱ ᴇɴᴄᴏɴᴛʀᴀʀ ᴠᴀʀɪᴀꜱ ᴇꜱᴛᴀᴅɪꜱᴛɪᴄᴀꜱ ʀᴇʟᴀᴄɪᴏɴᴀᴅᴀꜱ ᴄᴏɴ ʟᴀ ʟᴜᴄʜᴀ, ᴊᴜᴇɢᴏ, ᴛʀᴀʙᴀᴊᴏꜱ, ʜᴀʙɪʟɪᴅᴀᴅᴇꜱ ʏ ᴏᴛʀᴀꜱ ᴇɴ ᴜɴ Úɴɪᴄᴏ ᴍᴇɴÚ.' 
+    - 'lore3:&eSe encuentra en &e&lMenú de supervivencia'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+  34:
+    MenuItem:
+    - name:&aʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzc3ZDRhMjA2ZDc3NTdmNDc5ZjMzMmVjMWEyYmJiZWU1N2NlZjk3NTY4ZGQ4OGRmODFmNDg2NGFlZTdkM2Q5OCJ9fX0=
+    - 'lore1:&7ᴘᴏʀ ᴜɴᴀ ᴄᴀɴᴛɪᴅᴀᴅ ᴅᴇ ᴅɪɴᴇʀᴏ ᴜꜱᴛᴇᴅ ꜱᴇʀᴀ#&7ᴛᴇʟᴘᴏʀᴛᴀᴅᴏ ᴀʟ ᴀᴢᴀʀ ᴇɴ ʟᴀ ꜱᴜᴘᴇʀᴠɪᴠᴇɴᴄɪᴀ #&7ᴍᴀᴘᴀ, ᴘᴀʀᴀ qᴜᴇ ᴘᴜᴇᴅᴀꜱ ᴄᴏᴍᴇɴᴢᴀʀ ᴛᴜ ᴀᴠᴇɴᴛᴜʀᴀ'
+    - 'lore3:&eTipo &e&l/rthelp&e para la lista de comandos'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35

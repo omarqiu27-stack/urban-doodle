@@ -1,0 +1,2 @@
+May 3 2026 (8:6:1) - §fSaoki appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=playworld},x=-1753.300000011921,y=63.0,z=-875.3000000119209,pitch=24.449873,yaw=139.49182}
+May 3 2026 (8:6:1) - §fSaoki appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=playworld},x=-1753.300000011921,y=63.0,z=-875.3000000119209,pitch=16.34989,yaw=121.19232}

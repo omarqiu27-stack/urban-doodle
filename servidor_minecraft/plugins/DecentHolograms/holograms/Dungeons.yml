@@ -1,0 +1,30 @@
+location: world:-26.496:80.400:91.529
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: ''
+    height: 0.2
+  - content: '&6ᴍᴀᴢᴍᴏʀʀᴀꜱ'
+    height: 0.3
+  - content: ''
+    height: 0.2
+  - content: '&7ᴍᴀᴛᴀʀ ᴏʟᴀꜱ ᴅᴇ ᴍᴏɴꜱᴛʀᴜᴏꜱ ꜰᴜᴇʀᴛᴇꜱ'
+    height: 0.3
+  - content: '&7qᴜᴇ ɢᴇɴᴇʀᴀʀᴀ ᴇɴ ʟᴀ ᴀʀᴇɴᴀ.'
+    height: 0.3
+  - content: '&7ᴄᴀᴅᴀ ᴜɴᴏ ᴅᴇ ᴇʟʟᴏꜱ ᴛɪᴇɴᴇ ɢᴏᴛᴀꜱ ᴘᴇʀꜱᴏɴᴀʟɪᴢᴀᴅᴀꜱ'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&e← ᴍᴇᴅɪᴀ   &c↑ ᴅɪꜰɪᴄɪʟ    &aꜰᴀᴄɪʟ →'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '#ICON: dragon_head'
+    height: 0.3
+  actions: {}

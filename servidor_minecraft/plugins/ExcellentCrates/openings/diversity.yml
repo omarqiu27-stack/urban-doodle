@@ -1,0 +1,66 @@
+Title: '&f⻔⻔⻔⻔⻔⻔⻔⻔'
+Size: 54
+
+Content:
+  button_1:
+    Slots: 29
+    Start_Reward: main1
+    Start_Animation: panes
+    Item:
+      Material: CHEST
+      Name: '&bᴄʟɪᴄᴋ ꜰᴏʀ ʀᴇᴡᴀʀᴅ!'
+  
+  button_2:
+    Slots: 31
+    Start_Reward: main2
+    Start_Animation: panes
+    Item:
+      Material: CHEST
+      Amount: 2
+      Name: '&bᴄʟɪᴄᴋ ꜰᴏʀ ʀᴇᴡᴀʀᴅ!'
+  
+  button_3:
+    Slots: 33
+    Start_Reward: main3
+    Start_Animation: panes
+    Item:
+      Material: CHEST
+      Amount: 3
+      Name: '&bᴄʟɪᴄᴋ ꜰᴏʀ ʀᴇᴡᴀʀᴅ!'
+
+Rewards:
+  main1:
+    Start_Action: CLICK
+    Start_Chance: 100.0
+    Start_Delay: 1
+    Roll_Times: 50
+    Roll_Tick_Interval: 1
+    Roll_Slowdown_Every: 10
+    Roll_Slowdown_Ticks: 1
+    Slots: '29'
+    Slots_Mode: INDEPENDENT
+    Win_Slots: '29'
+  
+  main2:
+    Start_Action: CLICK
+    Start_Chance: 100.0
+    Start_Delay: 1
+    Roll_Times: 50
+    Roll_Tick_Interval: 1
+    Roll_Slowdown_Every: 10
+    Roll_Slowdown_Ticks: 1
+    Slots: '31'
+    Slots_Mode: INDEPENDENT
+    Win_Slots: '31'
+  
+  main3:
+    Start_Action: CLICK
+    Start_Chance: 100.0
+    Start_Delay: 1
+    Roll_Times: 50
+    Roll_Tick_Interval: 1
+    Roll_Slowdown_Every: 10
+    Roll_Slowdown_Ticks: 1
+    Slots: '33'
+    Slots_Mode: INDEPENDENT
+    Win_Slots: '33'

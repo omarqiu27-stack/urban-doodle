@@ -1,0 +1,60 @@
+inv:
+  manageInvName: '&8Administrar Menú'
+  playerAddInvName: '&e » &fAgregar jugador'
+  playerRemoveInvName: '&e » &fQuitar jugador'
+  playerSetInvName: '&e » &fPropietario de muebles'
+  admin:
+    setOwner:
+      String: '&e » &fPropietario de muebles'
+      Material: DIAMOND
+      Text:
+      - '&8 ▪ &fPropietario:&e #OWNER#'
+  mode:
+    Private:
+      String: '&e » &fPrivado'
+      Material: BLACK_BANNER
+      Text:
+      - '&8 ▪ &fSolo tu tienes acceso'
+      - '&fa los muebles'
+    Member:
+      String: '&e » &fMiembros'
+      Material: ORANGE_BANNER
+      Text:
+      - '&8 ▪ &fSolo tus amigos tienen'
+      - '&facceso a los muebles'
+    Public:
+      String: '&e » &fPúblico'
+      Material: GREEN_BANNER
+      Text:
+      - '&8 ▪ &fTodos los jugadores tienen'
+      - '&facceso a los muebles'
+  event:
+    Break:
+      String: '&e » &fRomper'
+      Material: BLACK_BANNER
+    Interact:
+      String: '&e » &fInteractuar'
+      Material: ORANGE_BANNER
+    Break_interact:
+      String: '&e » &fRomper_interactuar'
+      Material: GREEN_BANNER
+    None:
+      String: Ninguno
+      Material: RED_BANNER
+  player:
+    add:
+      String: '&e » &fAgregar jugador'
+      Material: PLAYER_HEAD
+    remove:
+      String: '&e » &fQuitar jugador'
+      Material: ZOMBIE_HEAD
+  controller:
+    NextPage:
+      String: '&e » &fSiguiente página'
+      Material: DARK_OAK_BUTTON
+    PrevPage:
+      String: '&e » &fPagina anterior'
+      Material: STONE_BUTTON
+    PageItem:
+      String: '&e » &fPagina #CURPAGE#/#MAXPAGE#'
+      Material: PAPER

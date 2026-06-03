@@ -1,0 +1,13 @@
+Name: §bClave de Diversidad
+Virtual: false
+Item:
+  Material: STICK
+  Custom_Model_Data: 143
+  Amount: 1
+  Durability: 0
+  Name: '&bClave de Diversidad'
+  Lore:
+  - '&7Con esta llave ud'
+  - '&7puede abrir caja diversidad'
+  Item_Flags: []
+  Unbreakable: false

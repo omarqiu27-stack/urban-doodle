@@ -1,0 +1,290 @@
+#This is the lore of every auctioned item in the menu:
+#Use %amount% for item's amount
+auction-item-lore:
+  #The lore for items with no bids on them
+  #Use %display-name-seller% for display name of the seller
+  #Use %starting-bid% for the starting bid
+  #Use %duration% for auction duration
+  auction-item-no-bid:
+
+    - '&cᴛᴇʀᴍɪɴᴀ ᴇɴ %duration%'
+    - ''
+    - '&f▪ ᴠᴇɴᴅᴇᴅᴏʀ: &7%display-name-seller%'
+    - '&f▪ ᴀᴘᴜᴇꜱᴛᴀ ɪɴɪᴄɪᴀʟ: &6%starting-bid%&f'
+    - ''
+    - '&f'
+  #The lore for items with bids on them
+  #Use %display-name-seller% for display name of the seller
+  #Use %bids% for the amount of bids
+  #Use %top-bid% for the top bid
+  #Use %top-bid-player% for the top bid player
+  #Use %duration% for auction duration
+  auction-item-with-bids:
+    - '&cᴛᴇʀᴍɪɴᴀ ᴇɴ %duration%'
+    - ''
+    - '&f▪ ᴠᴇɴᴅᴇᴅᴏʀ: &7%display-name-seller%'
+    - '&f▪ ᴀᴘᴜᴇꜱᴛᴀ ɪɴɪᴄɪᴀʟ: &a%bids% bids'
+    - ''
+    - '&f▪ ᴀᴘᴜᴇꜱᴛᴀ ᴍᴀʏᴏʀ: &6%top-bid%&f'
+    - '&f▪ ᴀᴘᴏꜱᴛᴀᴅᴏʀ:&7 %top-bid-player%'
+    - ''
+    - '&f'
+  #Use %display-name-seller% for display name of the seller
+  #Use %bids% for the amount of bids
+  #Use %top-bid% for the top bid
+  #Use %top-bid-player% for the top bid player
+  auction-item-ended:
+    - ''
+    - '&f▪ ᴠᴇɴᴅᴇᴅᴏʀ: &7%display-name-seller%'
+    - '&f▪ ᴀᴘᴜᴇꜱᴛᴀꜱ: &a%bids% bids'
+    - ''
+    - '&f▪ ᴀᴘᴜᴇꜱᴛᴀ ᴍᴀʏᴏʀ: &6%top-bid%&f'
+    - '&f▪ ᴀᴘᴏꜱᴛᴀᴅᴏʀ:&7 %top-bid-player%'
+    - ''
+    - '&fᴇꜱᴛᴀᴅᴏ: &aᴄᴜʟᴍɪɴᴀᴅᴀ!'
+    - ''
+    - '&f'
+  #Use %display-name-seller% for display name of the seller
+  #Use %starting-bid% for the starting bid
+  auction-item-expired:
+    - ''
+    - '&f▪ ᴠᴇɴᴅᴇᴅᴏʀ: &7%display-name-seller%'
+    - '&f▪ ᴀᴘᴜᴇꜱᴛᴀ ɪɴɪᴄɪᴀʟ: &6%starting-bid%&f'
+    - ''
+    - '&fᴇꜱᴛᴀᴅᴏ: &cᴇxᴘɪʀᴀᴅᴀ!'
+    - ''
+    - '&f'
+
+sort-auction-item: 'STICK#308'
+sort-auction-item-name: '&aꜰɪʟᴛʀᴀʀ'
+#The lore is dynamic so you can only edit
+#the names of the sortings
+sort-auction-item-sorting:
+  highest-bid: '&fᴀᴘᴜᴇꜱᴛᴀ ᴍᴀʏᴏʀ'
+  lowest-bid: '&fᴀᴘᴜᴇꜱᴛᴀ ᴍᴇɴᴏʀ'
+  ending-soon: '&fᴛᴇʀᴍɪɴᴀ ᴘʀᴏɴᴛᴏ'
+  most-bids: '&fᴍᴀʏᴏʀ ᴄᴀɴᴛɪᴅᴀᴅ ᴅᴇ ᴀᴘᴜᴇꜱᴛᴀꜱ'
+  click-to-switch: '&f'
+
+search-auction-item: 'STICK#310'
+search-auction-item-name: '&aʙᴜꜱᴄᴀʀ'
+search-auction-item-lore:
+  - '&8ᴇɴᴄᴜᴇɴᴛʀᴀ ᴏʙᴊᴇᴛᴏꜱ ᴘᴏʀ ꜱᴜ ɴᴏᴍʙʀᴇ'
+  - ''
+  - '&f'
+
+#The message displayed on the sign when searching for an auction
+#There are only 3 rows because the first is where the user writes
+search-sign-message:
+  - '&8^^^^^^^^^^^^^^'
+  - '&f   Escriba su'
+  - '&f    busqueda.'
+
+create-menu-name: '&f⻔⻔⻔⻔⻔⻔⻔⻔'
+manage-own-auctions-menu-name: '&8Your Auctions Manager'
+manage-menu-item: 'STICK#312'
+manage-menu-item-name: '&aᴀᴅᴍɪɴɪꜱᴛʀᴀʀ ᴀᴘᴜᴇꜱᴛᴀꜱ'
+manage-menu-item-lore:
+  #This lore is displayed when the player has no own auction
+  manage-no-own-auctions:
+    - '&8ᴛᴜꜱ ᴀᴘᴜᴇꜱᴛᴀꜱ'
+    - ''
+    - '&7ᴘᴏɴ ᴛᴜꜱ ᴘʀᴏᴘɪᴏꜱ ᴏʙᴊᴇᴛᴏꜱ'
+    - '&7ᴇɴ ᴀᴘᴜᴇꜱᴛᴀ ᴘᴀʀᴀ ᴏᴛʀᴏꜱ ᴊᴜɢᴀᴅᴏʀᴇꜱ'
+    - '&7ʏ ᴄᴏᴍᴘʀᴇɴ ᴛᴜꜱ ᴏʙᴊᴇᴛᴏꜱ.'
+    - ''
+    - '&f'
+  #This lore is displayed when the player has pending auctions
+  #Use %auctions% for the number of auctions the player has
+  #Use %bids% for the total number of bids on their auctions
+  #Use %coins% for the total number of coins on their auctions
+  manage-with-own-auctions:
+    - '&8%auctions% ᴀᴘᴜᴇꜱᴛᴀꜱ ᴇɴ ᴘʀᴏɢʀᴇꜱᴏ'
+    - ''
+    - '&7ᴛᴜ ᴀᴘᴜᴇꜱᴛᴀꜱ ᴛɪᴇɴᴇɴ &d%bids% ᴀᴘᴜᴇꜱᴛᴀꜱ'
+    - '&7ᴛᴏᴛᴀʟ ᴅᴇ ᴍᴏɴᴇᴅᴀꜱ &6%coins%&f'
+    - ''
+    - '&f'
+
+preview-no-item-selected: 'STICK#3'
+preview-no-item-selected-name: '&aᴅᴀ ᴄʟɪᴄᴋ ᴀ ᴜɴ ᴏʙᴊᴇᴛᴏ ᴇɴ ᴛᴜ ɪɴᴠᴇɴᴛᴀʀɪᴏ!'
+preview-no-item-selected-lore:
+  - '&fꜱᴇʟᴇᴄᴄɪᴏɴᴀ ᴘᴀʀᴀ ᴀᴘᴏꜱᴛᴀʀ'
+
+preview-selected-item-name: '&aᴀᴘᴜᴇꜱᴛᴀ ᴜɴ ᴏʙᴊᴇᴛᴏ'
+preview-selected-item-take-back: '&f'
+
+#This item appears when the player has 2 or more ended auctions
+collect-all-item: '380'
+#Use %auctions% for the number of auctions that could be collected
+#Use %coins% for the total amount of coins that could be collected
+#Use %items% for the expired items that could be collected
+collect-all-item-name: '&aʀᴇᴄʟᴀᴍᴀ ᴛᴏᴅᴏ'
+collect-all-item-lore:
+  own-auctions:
+    - '&7ᴛᴜ ᴛɪᴇɴᴇꜱ &e%auctions% &7ᴀᴘᴜᴇꜱᴛᴀꜱ ᴛᴇʀᴍɪɴᴀᴅᴀꜱ'
+    - '&7ʜᴀᴄɪᴇɴᴅᴏ ᴜɴ ᴛᴏᴛᴀʟ ᴇɴ ᴠᴀʟᴏʀ ᴅᴇ &6%coins%&f'
+    - '&7ʏ &e%items% &7ᴀʀᴛɪᴄᴜʟᴏꜱ ᴅᴇ ᴀᴘᴜᴇꜱᴛᴀꜱ ᴇxᴘɪʀᴀᴅᴀꜱ'
+    - ''
+    - '&eᴄʟɪᴄᴋ ᴘᴀʀᴀ ʀᴇᴄʟᴀᴍᴀʀ'
+  own-bids:
+    - '&8ᴀᴘᴜᴇꜱᴛᴀꜱ ᴛᴇʀᴍɪɴᴀᴅᴀꜱ'
+    - ''
+    - '&8ʜᴀʏ %auctions% ᴀᴘᴜᴇꜱᴛᴀꜱ ᴛᴇʀᴍɪɴᴀᴅᴀꜱ'
+    - '&8ᴄᴏɴ ᴀᴘᴜᴇꜱᴛᴀꜱ ᴀɴᴛᴇʀɪᴏʀᴇꜱ ᴛᴜʏᴀꜱ'
+    - ''
+    - '&7ᴛᴜ ᴛɪᴇɴᴇꜱ &6%coins%&f &7ᴘᴀʀᴀ'
+    - '&7ʀᴇᴄʟᴀᴍᴀʀ ᴅᴇ ʀᴇɢʀᴇꜱᴏ ᴅᴇ ᴀᴘᴜᴇꜱᴛᴀꜱ ᴘᴇʀᴅɪᴅᴀꜱ ʏ'
+    - '&e%items% &7ᴀʀᴛɪᴄᴜʟᴏꜱ ᴅᴇ ᴀᴘᴜᴇꜱᴛᴀꜱ ɢᴀɴᴀᴅᴀꜱ'
+    - ''
+    - '&eᴄʟɪᴄᴋ ᴘᴀʀᴀ ʀᴇᴄʟᴀᴍᴀʀ'
+
+#The message sent when the player has a full inventory but tries to claim an item
+not-enough-inventory-space: '&f &fNo tienes suficiente espacio en el inventario!'
+collect-all-message: '&f &fAcabas de recolectar todas tus apuestas!'
+
+create-auction-item:
+  no-item-selected-material: 'STICK#315'
+  no-item-selected-name: '&aᴄʀᴇᴀ ᴜɴᴀ ᴀᴘᴜᴇꜱᴛᴀ'
+  no-item-selected-lore:
+    - '&7ᴅᴀ ᴄʟɪᴄᴋ ᴇɴ ᴜɴ ᴀʀᴛɪᴄᴜʟᴏ'
+    - '&7ᴅᴇ ᴛᴜ ɪɴᴠᴇɴᴛᴀʀɪᴏ ᴘᴀʀᴀ ꜱᴇʟᴇᴄᴄɪᴏɴᴀʀ'
+    - '&7ᴇɴ ᴇꜱᴛᴀ ᴀᴘᴜᴇꜱᴛᴀ.'
+    - ''
+    - '&f'
+  item-selected-material: 'STICK#316'
+  item-selected-name: '&aᴄʀᴇᴀ ᴜɴᴀ ᴀᴘᴜᴇꜱᴛᴀ'
+  #Use %item-name% for item's name
+  #Use %starting-bid% for starting bid amount
+  #Use %duration% for duration of the auction
+  #Use %fee% for the total fee
+  item-selected-lore:
+    - '&8ɪɴꜰᴏʀᴍᴀᴄɪᴏɴ'
+    - ''
+    - '&f▪ ᴅᴜʀᴀᴄɪᴏɴ: &e%duration%'
+    - '&f▪ ᴏꜰᴇʀᴛᴀꜱ ɪɴɪᴄɪᴀʟ: &6%starting-bid%&f'
+    - ''
+    - '&fᴄᴏꜱᴛᴇ ᴅᴇ ᴄʀᴇᴀᴄɪᴏɴ: &6%fee%&f'
+    - ''
+    - '&f'
+
+#The default starting bid
+default-starting-bid: '250'
+
+starting-bid-item: 'STICK#314'
+#Use %starting-bid% for the starting bid amount
+#Use %starting-fee% for the starting bid fee
+starting-bid-item-name: '&aᴀᴘᴜᴇꜱᴛᴀ ɪɴɪᴄɪᴀʟ'
+starting-bid-item-lore:
+  - '&f・&6%starting-bid%&f'
+  - ''
+  - '&7ᴄᴜᴀɴᴅᴏ ᴜɴ ᴊᴜɢᴀᴅᴏʀ ᴏꜰᴇʀᴛᴀ ᴘᴏʀ'
+  - '&7ᴛᴜ ᴀʀᴛɪᴄᴜʟᴏ, ᴏᴛʀᴏꜱ ᴊᴜɢᴀᴅᴏʀᴇꜱ ᴛᴇɴᴅʀᴀɴ'
+  - '&7ᴛɪᴇᴍᴘᴏ ʜᴀꜱᴛᴀ ᴄᴜʟᴍɪɴᴀʀ ʟᴀ ᴀᴘᴜᴇꜱᴛᴀ'
+  - '&7ᴘᴀʀᴀ ʜᴀᴄᴇʀ ᴇʟ ᴍᴏɴᴛᴏ ᴍᴀꜱ ᴀʟᴛᴏ.'
+  - ''
+  - '&fᴄᴏꜱᴛᴏ ᴇxᴛʀᴀ: &6+%starting-fee%&f &e(5%)'
+  - ''
+  - '&f'
+#The message displayed on the sign when changing the starting bid
+#There are only 3 rows because the first is where the user writes
+starting-bid-sign-message:
+  - '&8^^^^^^^^^^^^^^^'
+  - '&f  Su precio de'
+  - '&f  apuesta inicial'
+#This message is shown when the starting bid
+#could not be registered
+starting-bid-sign-deny: '&f &fEse no es un numero valido.'
+#Don't use the % symbol, just say how much in 100
+#you want the procent to be
+starting-bid-fee-procent: '5'
+
+#Use m for minute, h for hour, d for day with a space between the number and time unit
+#The maxim auction time is 7 days and you can't set the auction to seconds
+#If you enter the time incorectly it resets to 2 h
+default-starting-duration: '2 h'
+
+#Custom units for time
+#Don't use this in the upper option, these are avalable
+#just in auction messages, in the config please use the syntax from the upper comment
+second: 'ꜱᴇɢᴜɴᴅᴏ'
+seconds: 'ꜱᴇɢᴜɴᴅᴏꜱ'
+minute: 'ᴍɪɴᴜᴛᴏ'
+minutes: 'ᴍɪɴᴜᴛᴏꜱ'
+hour: 'ʜᴏʀᴀ'
+hours: 'ʜᴏʀᴀꜱ'
+day: 'ᴅɪᴀ'
+days: 'ᴅɪᴀꜱ'
+
+#Time units but short version:
+short_second: 's'
+short_minute: 'm'
+short_hour: 'h'
+short_day: 'd'
+
+
+#This is the formula that calculates the fee for hours
+#x=number of hours
+extra-fee-formula: '5*(x+3)+5*x*(Math.floor(x/9)+Math.floor(x/20))'
+#The fee for minutes is fixed (5 minutes - 59 minutes)
+extra-fee-minutes: '500'
+
+extra-fee-message: '&fCosto Extra: &6'
+
+duration-menu-name: '&f⻔⻔⻔⻔⻔⻔⻔⻔'
+#This is the message used into duration selection menu
+#on the items with time on them
+duration-selection-lore: '&f'
+
+duration-item: 'STICK#313'
+#Use %auction-fee% for the duration fee of the auction
+#Use %auction-time% for the time of the auction
+duration-item-name: '&aᴅᴜʀᴀᴄɪᴏɴ'
+duration-item-lore:
+  - '&8・%auction-time%'
+  - ''
+  - '&7ʟᴀꜱ ᴏꜰᴇʀᴛᴀꜱ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀᴍᴇɴᴛᴇ ᴀᴜᴍᴇɴᴛᴀɴ'
+  - '&7ʟᴀ ᴅᴜʀᴀᴄɪᴏɴ ᴅᴇ ʟᴀꜱ ᴀᴘᴜᴇꜱᴛᴀꜱ'
+  - ''
+  - '&fᴄᴏꜱᴛᴏ ᴇxᴛʀᴀ: &6+%auction-fee%&f'
+  - ''
+  - '&f'
+
+#The clock inside the duration menu
+duration-select-item-name: '&aᴅᴜʀᴀᴄɪᴏɴ ᴇꜱᴘᴇᴄɪᴀʟ'
+duration-select-item-lore:
+  - '&7ᴇꜱᴘᴇᴄɪꜰɪᴄᴀ ʟᴀ ʟᴏɴɢɪᴛᴜᴅ ᴅᴇꜱᴇᴀᴅᴀ'
+  - '&7ᴘᴀʀᴀ ᴛᴜ ᴀᴘᴜᴇꜱᴛᴀ'
+  - ''
+  - '&e'
+
+#The message displayed on the sign when changing the duration of the bid
+#There are only 3 rows because the first is where the user writes
+#%time-format% is hours/minutes.
+duration-sign-message:
+  - '&8^^^^^^^^^^^^^^'
+  - '&f    Apuesta'
+  - '&f    %time-format%'
+
+#The message shown when the amount of hours/minutes entered is incorrect
+duration-sign-deny: '&f &fEse no es un numero valido.'
+
+not-enough-money-auction: '&f &fNo tienes suficiente dinero para hacer esta apuesta.'
+
+auction-confirm-menu-name: '&8Confirmar Apuesta'
+
+auction-confirm-item-material: '159:13'
+auction-confirm-item-name: '&aᴄᴏɴꜰɪʀᴍᴀʀ'
+#Use %cost% for the total price the player
+#has to pay to create the auction
+auction-confirm-item-lore:
+  - '&7ᴇꜱᴛᴀꜱ ꜱᴇɢᴜʀᴏ/ᴀ ᴅᴇ'
+  - '&7ᴄʀᴇᴀʀ ᴇꜱᴛᴀ ᴀᴘᴜᴇꜱᴛᴀ?'
+
+auction-cancel-item-material: '159:14'
+auction-cancel-item-name: '&cᴄᴀɴᴄᴇʟᴀʀ'
+auction-cancel-item-lore:
+  - '&7ᴇꜱᴛᴀꜱ ꜱᴇɢᴜʀᴏ/ᴀ ᴅᴇ'
+  - '&7ᴄᴀɴᴄᴇʟᴀʀ ᴇꜱᴛᴀ ᴀᴘᴜᴇꜱᴛᴀ?'
+
+auction-created-message: '&f &fTu apuesta ha sido creada!'

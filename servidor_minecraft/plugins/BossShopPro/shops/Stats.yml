@@ -1,0 +1,115 @@
+ShopName: Stats
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔'
+Command: Stat
+signs:
+  text: '[Stat]'
+  NeedPermissionToCreateSign: true
+shop:
+  1:
+    MenuItem:
+    - name:&aʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ
+    - amount:1
+    - type:SKULL
+    - playerhead:%player_name%
+    - 'lore1:&f ▪ ɴᴏᴍʙʀᴇ: &7%player_name%'
+    - 'lore2:&f ▪ ʀᴀɴɢᴏ: &f%vault_rank%'
+    - 'lore3:&f ▪ ʙᴀɴᴄᴏ: #dad45e%vault_eco_balance_formatted%'
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  2:
+    MenuItem:
+    - name:&aᴄᴏᴍʙᴀᴛ
+    - amount:1
+    - type:stick
+    - custommodeldata:3
+    - 'lore1:&f ▪ ᴍᴀᴛᴀ: &7%statistic_player_kills%'
+    - 'lore2:&f ▪ ꜰᴀʟʟᴇᴄɪᴅᴏꜱ: &7%statistic_deaths%'
+    - 'lore3:&f ▪ ᴅᴀɴᴏ ɪɴꜰʟɪɢɪᴅᴏ: &7%statistic_damage_dealt%'
+    - 'lore4:&f ▪ ᴅᴀɴᴏ ʀᴇᴄɪʙɪᴅᴏ: &7%statistic_damage_taken%'
+    - 'lore5:&f ▪ ʀᴇᴄᴜᴇɴᴛᴏ ᴅᴇ ᴇɴᴇᴍɪɢᴏꜱ: &7%combatlogx_enemy_count% '
+    - 'lore6:&f ▪ ᴄᴏɴᴛᴇᴏ ᴅᴇ ᴄᴀꜱᴛɪɢᴏꜱ: &7%combatlogx_punishment_count%'
+    - hideflags:all
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+  3:
+    MenuItem:
+    - name:&aɢᴀᴍᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:3
+    - 'lore1:&f ▪ ᴀʀᴛɪᴄᴜʟᴏꜱ ᴜꜱᴀᴅᴏꜱ: &7%statistic_use_item%'
+    - 'lore2:&f ▪ ʙʟᴏqᴜᴇꜱ ʀᴏᴛᴏꜱ: &7%statistic_mine_block%'
+    - 'lore3:&f ▪ ᴀʀᴛɪᴄᴜʟᴏꜱ ʜᴇᴄʜᴏꜱ: &7%statistic_craft_item%'
+    - 'lore4:&f ▪ ᴘᴀɴ ᴅᴇ ᴀɴɪᴍᴀʟᴇꜱ: &7%statistic_animals_bred%'
+    - 'lore5:&f ▪ ᴘᴇꜱᴄᴀᴅᴏ ᴄᴀᴘᴛᴜʀᴀᴅᴏ: &7%statistic_fish_caught%'
+    - 'lore6:&f ▪ ᴀʀᴛɪᴄᴜʟᴏꜱ ᴇɴᴄᴀɴᴛᴀᴅᴏꜱ: &7%statistic_item_enchanted%'
+    - 'lore7:&f ▪ ᴏꜰɪᴄɪᴏꜱ ᴅᴇ ᴀʟᴅᴇᴀɴᴏꜱ: &7%statistic_traded_with_villager%'
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+  4:
+    MenuItem:
+    - name:&aᴊᴏʙꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:3
+    - 'lore1:&f ▪ ᴛʀᴀʙᴀᴊᴏꜱ ᴀᴄᴛᴜᴀʟᴇꜱ: &7%jobsr_user_joinedjobcount%/%jobsr_maxjobs%'
+    - 'lore2:&f ▪ ᴘᴜɴᴛᴏꜱ ᴅᴇ ᴛʀᴀʙᴀᴊᴏ: &7%jobsr_user_points%'
+    - 'lore3:&f ▪ ᴍɪꜱɪᴏɴᴇꜱ ᴄᴏᴍᴘʟᴇᴛᴀᴅᴀꜱ: &7%jobsr_user_doneq%'
+    - 'lore4:&f ▪ ᴇʟᴀʙᴏʀᴀᴄɪÓɴ ᴅᴇ ᴄᴇʀᴠᴇᴢᴀ: &7%jobsr_user_bstandcount%/%jobsr_user_maxbstandcount%'
+    - 'lore5:&f ▪ ʜᴏʀɴᴏ: &7%jobsr_user_furncount%/%jobsr_user_maxfurncount%'
+    - hideflags:all
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+  5:
+    MenuItem:
+    - name:&aꜱᴋɪʟʟꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:3
+    - hideflags:HIDE_ATTRIBUTES
+    - 'lore1:&f ▪ ꜰᴏʀᴛᴀʟᴇᴢᴀ: &7%aureliumskills_strength% points'
+    - 'lore2:&f ▪ ꜱᴀʟᴜᴅ: &7%aureliumskills_health% points'
+    - 'lore3:&f ▪ ʀᴇɢᴇɴᴇʀᴀᴄɪᴏɴ: &7%aureliumskills_regeneration% points'
+    - 'lore4:&f ▪ ꜱᴜᴇʀᴛᴇ: &7%aureliumskills_luck% points'
+    - 'lore5:&f ▪ ꜱᴀʟᴠᴀᴊᴇ: &7%aureliumskills_wisdom% points'
+    - 'lore6:&f ▪ ᴛᴇɴᴀᴄɪᴅᴀᴅ: &7%aureliumskills_toughness% points'
+    RewardType: NOTHING
+    Message: ''
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+  6:
+    MenuItem:
+    - name:&aᴏᴛʜᴇʀꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:3
+    - 'lore1:&f ▪ ʀᴇᴄʟᴀᴍᴏꜱ: &7%ultimateclaims_totalchunks%'
+    - 'lore2:&f ▪ ᴄᴏɴᴊᴜɴᴛᴏ ᴅᴇ ᴄᴀꜱᴀ: &7%essentials_homes_set%/%essentials_homes_max%'
+    - 'lore3:&f ▪ ꜱᴜʙᴀꜱᴛᴀꜱ ᴀᴄᴛɪᴠᴀꜱ: &7%auctionmaster_own_auctions%'
+    - 'lore4:&f ▪ ᴏꜰᴇʀᴛᴀ ᴀᴄᴛɪᴠᴀ: &7%auctionmaster_own_bids% '
+    - 'lore5:&f ▪ ᴄᴏꜰʀᴇꜱ ᴅᴇ Áɴɢᴇʟ ᴀᴄᴛɪᴠᴏꜱ: &7%angelchest_activechests%'
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+  Back:
+    MenuItem:
+    - name:&8ᴀᴛʀᴀꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:3
+    RewardType: SHOP
+    Reward: Profile
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 41

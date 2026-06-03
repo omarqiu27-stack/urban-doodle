@@ -1,0 +1,198 @@
+ShopName: Furniture3
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔'
+signs:
+  text: '[Furniture3]'
+  NeedPermissionToCreateSign: true
+shop:
+  Furniture1:
+    MenuItem:
+    - type:BOOK
+    - amount:1
+    - name:&fMáquina de Bebidas
+    - 'lore1: &7Una máquina de café#&7con un rol decorativo.'
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀɪᴀ: &aᴇʟᴇᴄᴛʀᴏɴɪᴄᴏꜱ'
+    - 'lore4:&f ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%'
+    - 'lore6:&f'
+    RewardType: COMMAND
+    Reward:
+    - furniture give beveragemachine %player%
+    PriceType: MONEY
+    Price: 850
+    Message: '&f &fHas comprado &ebeverage machine &fpor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Furniture3:
+    MenuItem:
+    - type:BOOK
+    - amount:1
+    - name:&fComputadora
+    - 'lore1: &7Idealmente ponerla en un escritorio, esto es un sistema#&7todo en uno que hace la diferencia.'
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀɪᴀ: &aᴇʟᴇᴄᴛʀᴏɴɪᴄᴏꜱ'
+    - 'lore4:&f ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%'
+    - 'lore6:&f'
+    RewardType: COMMAND
+    Reward:
+    - furniture give computer %player%
+    PriceType: MONEY
+    Price: 1850
+    Message: '&f &fHas comprado &eComputadora &fpor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Furniture4:
+    MenuItem:
+    - type:BOOK
+    - amount:1
+    - name:&fEscritorio Gaming
+    - 'lore1: &7Un escritorio gaming,#&7ideal para una habitacion lujosa.'
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀɪᴀ: &aᴇʟᴇᴄᴛʀᴏɴɪᴄᴏꜱ'
+    - 'lore4:&f ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%'
+    - 'lore6:&f'
+    RewardType: COMMAND
+    Reward:
+    - furniture give gamingdesk %player%
+    PriceType: MONEY
+    Price: 6500
+    Message: '&f &fHas comprado &eEscritorio Gaming &fpor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Furniture5:
+    MenuItem:
+    - type:BOOK
+    - amount:1
+    - 'name:&fRefrigerador'
+    - 'lore1: &7Un refrigerador atractivo y inteligente,#&7para que pongas tu comida dentro.'
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀɪᴀ: &aᴇʟᴇᴄᴛʀᴏɴɪᴄᴏꜱ'
+    - 'lore4:&f ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%'
+    - 'lore6:&f'
+    RewardType: COMMAND
+    Reward:
+    - furniture give refrigerator %player%
+    PriceType: MONEY
+    Price: 2600
+    Message: '&f &fHas comprado &eRefrigerador &fpor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Furniture6:
+    MenuItem:
+    - type:BOOK
+    - amount:1
+    - 'name:&fEstudio'
+    - 'lore1: &7Un set completo de muebles,#&7con parlantes de television y libreria.'
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀɪᴀ: &aᴇʟᴇᴄᴛʀᴏɴɪᴄᴏꜱ'
+    - 'lore4:&f ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%'
+    - 'lore6:&f'
+    RewardType: COMMAND
+    Reward:
+    - furniture give studio %player%
+    PriceType: MONEY
+    Price: 3500
+    Message: '&f &fHas comprado &eEstudio &fpor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Furniture7:
+    MenuItem:
+    - type:BOOK
+    - amount:1
+    - name:&fTV
+    - 'lore1: &7Una simple television, ideal#&7para una habitacion minimalista.'
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀɪᴀ: &aᴇʟᴇᴄᴛʀᴏɴɪᴄᴏꜱ'
+    - 'lore4:&f ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%'
+    - 'lore6:&f'
+    RewardType: COMMAND
+    Reward:
+    - furniture give tv %player%
+    PriceType: MONEY
+    Price: 900
+    Message: '&f &fHas comprado &eTV &fpor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 11
+  Furniture8:
+    MenuItem:
+    - type:BOOK
+    - amount:1
+    - name:&fLavadora
+    - 'lore1: &7Una lavadora con rol decorativo,#&7pero con la posibilidad de guardar objetos.'
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀɪᴀ: &aᴇʟᴇᴄᴛʀᴏɴɪᴄᴏꜱ'
+    - 'lore4:&f ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%'
+    - 'lore6:&f'
+    RewardType: COMMAND
+    Reward:
+    - furniture give washingmachine %player%
+    PriceType: MONEY
+    Price: 1500
+    Message: '&f &fHas comprado &eLavadora &fpor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 12
+  Furniture9:
+    MenuItem:
+    - type:BOOK
+    - amount:1
+    - name:&fEstufa de Gas
+    - 'lore1: &7Una estuva con un rol#&7decorativo, ideal para una cocina.'
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀɪᴀ: &aᴇʟᴇᴄᴛʀᴏɴɪᴄᴏꜱ'
+    - 'lore4:&f ▪ ᴘʀᴇᴄɪᴏ: #dad45e%price%'
+    - 'lore6:&f'
+    RewardType: COMMAND
+    Reward:
+    - furniture give gascooker %player%
+    PriceType: MONEY
+    Price: 1200
+    Message: '&f &fHas comprado &eCocina de Gas &fpor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+####################################################################################################################
+  Back:
+    MenuItem:
+    - name:&cʀᴇɢʀᴇꜱᴀʀ
+    - type:stick
+    - custommodeldata:3
+    RewardType: SHOP
+    Reward: Menu
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 49
+  Back2:
+    MenuItem:
+    - name:&cʀᴇɢʀᴇꜱᴀʀ
+    - type:stick
+    - custommodeldata:3
+    RewardType: SHOP
+    Reward: Menu
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+  Back3:
+    MenuItem:
+    - name:&cʀᴇɢʀᴇꜱᴀʀ
+    - type:stick
+    - custommodeldata:3
+    RewardType: SHOP
+    Reward: Menu
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+
+  NextPage:
+    MenuItem:
+    - name:&8ꜱɪɢᴜɪᴇɴᴛᴇ ᴘᴀɢɪɴᴀ
+    - amount:1
+    - type:stick
+    - custommodeldata:3
+    RewardType: SHOP
+    Reward: Furniture4
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 53
+  PreviousPage:
+    MenuItem:
+    - name:&8ᴘᴀɢɪɴᴀ ᴀɴᴛᴇʀɪᴏʀ
+    - amount:1
+    - type:stick
+    - custommodeldata:3
+    RewardType: SHOP
+    Reward: Furniture2
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 47

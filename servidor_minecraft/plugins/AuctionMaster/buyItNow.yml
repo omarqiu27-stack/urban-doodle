@@ -1,0 +1,107 @@
+use-bin-timer: true
+use-buy-it-now: true
+#This will make the buy-it-now auction to be the default one
+#in the create auction menu (use-buy-it-now needs to be enabled)
+use-buy-it-now-as-default: false
+#This will disable normal auctions
+use-only-buy-it-now: false
+
+buy-it-now-select-price:
+  item-id: 'STICK#314'
+  #Use %price% for the item price
+  name: '&aPrecio del Objeto'
+  lore:
+    - '&f・&6%price%&f'
+    - ''
+    - '&7ᴇʟ ᴘʀᴇᴄɪᴏ ᴅᴇ ᴠᴇɴᴛᴀ ᴅᴇʟ ᴏʙᴊᴇᴛᴏ'
+    - '&7ᴅᴇꜱᴇᴀᴅᴏ ᴀ ᴘᴏɴᴇʀ ᴇɴ ᴠᴇɴᴛᴀ.'
+    - ''
+    - '&fᴄᴏꜱᴛᴏ ᴇxᴛʀᴀ: &6+%fee%&f &e(1%)'
+    - ''
+    - '&f'
+
+#Use percents from 1 to 100
+buy-it-now-fee: 2
+
+switch-button:
+  switch-to-auction:
+    material: 'STICK#317'
+    name: '&aᴄᴀᴍʙɪᴀʀ ᴅᴇ ᴀᴘᴜᴇꜱᴛᴀ'
+    lore:
+      - '&7ᴄᴏɴ ᴀᴘᴜᴇꜱᴛᴀꜱ ᴛʀᴀᴅɪᴄɪᴏɴᴀʟᴇꜱ,'
+      - '&7ᴍᴜʟᴛɪᴘʟᴇꜱ ᴄᴏᴍᴘʀᴀᴅᴏʀᴇꜱ ᴄᴏᴍᴘɪᴛᴇɴ ᴘᴏʀ'
+      - '&7ᴇʟ ᴏʙᴊᴇᴛᴏ ᴀᴘᴏꜱᴛᴀɴᴅᴏ ᴄᴀᴅᴀ ᴜɴᴏ.'
+      - ''
+      - '&f'
+  switch-to-bin:
+    material: 'STICK#317'
+    name: '&aᴄᴀᴍʙɪᴀʀ ᴀʟ ʙᴀꜱᴜʀᴇʀᴏ'
+    lore:
+      - '&8ᴇʟ ʙᴀꜱᴜʀᴇʀᴏ ꜱɪɢɪɴɪꜰɪᴄᴀ ᴄᴏᴍᴘʀᴀʀ ᴀʜᴏʀᴀ'
+      - ''
+      - '&7ᴘᴏɴ ᴜɴ ᴘʀᴇᴄɪᴏ, ʟᴜᴇɢᴏ ᴏᴛʀᴏ ᴊᴜɢᴀᴅᴏʀ ᴘᴜᴇᴅᴇ'
+      - '&7ᴄᴏᴍᴘʀᴀʀ ᴇꜱᴇ ᴏʙᴊᴇᴛᴏ ᴘᴏʀ ᴇꜱᴇ ᴘʀᴇᴄɪᴏ'
+      - ''
+      - '&f'
+
+buy-it-now-lore:
+  on-going:
+    - '&cᴛᴇʀᴍɪɴᴀ ᴇɴ %duration%'
+    - ''
+    - '&f▪ ᴠᴇɴᴅᴇᴅᴏʀ: &7%display-name-seller%'
+    - '&f▪ ᴄᴏᴍᴘʀᴀʀʟᴏ ᴀʜᴏʀᴀ ᴘᴏʀ: &6%starting-bid%&f'
+    - ''
+    - '&f'
+  expired:
+    - ''
+    - '&f▪ ᴠᴇɴᴅᴇᴅᴏʀ: &7%display-name-seller%'
+    - '&f▪ ᴄᴏᴍᴘʀᴀʀʟᴏ ᴀʜᴏʀᴀ ᴘᴏʀ: &6%price%&f'
+    - ''
+    - '&fᴇꜱᴛᴀᴅᴏ: &ᴄᴇxᴘɪʀᴀᴅᴏ!'
+    - ''
+    - '&f'
+  #Use %buyer-display-name% for buyer's display name
+  #Use %buyer-name% for buyer's username
+  bought:
+    - ''
+    - '&f▪ ᴠᴇɴᴅᴇᴅᴏʀ: &7%display-name-seller%'
+    - '&f▪ ᴘʀᴇᴄɪᴏ: &6%price%&f'
+    - ''
+    - '&f &a%buyer-display-name%'
+    - ''
+    - '&f'
+
+#Use %item% for item's display name
+#Use %seller-display-name% for seller display's name
+#Use %seller-name% for seller's name
+#Use %coins% for the amount of coins the item was bought for
+bought-item-message: '&f &fHas comprado el objeto &e%item% &fde %seller-display-name% &fpor &e%coins% monedas&f!'
+
+#Seller notification for bought item
+bought-seller-notification: '&6Survival &8| &e%bidder-display-name% &fha comprado tu objeto &e%item%&f por &e%price% monedas&f!'
+
+sort-item:
+  material: 'STICK#309'
+  name: '&aꜰɪʟᴛʀᴏ ᴅᴇʟ ʙᴀꜱᴜʀᴇʀᴏ'
+  show-all: '&fᴅᴇᴍᴜᴇꜱᴛʀᴀ ᴛᴏᴅᴏꜱ'
+  bin-only: '&fꜱᴏʟᴏ ᴅᴇʟ ʙᴀꜱᴜʀᴇʀᴏ'
+  auctions-only: '&fᴀᴘᴜᴇꜱᴛᴀꜱ ᴜɴɪᴄᴀᴍᴇɴᴛᴇ'
+  click-to-switch: '&f'
+
+view-auction-buy-now-button:
+  name: '&aCompra el objeto ahora mismo.'
+  click-to-buy:
+    material: '371'
+    lore:
+      - ''
+      - '&fPrecio de Apuesta'
+      -  '&6▪ %price% monedas'
+      - ''
+      - '&eClick para comprar!'
+  cannot-afford:
+    material: '394'
+    lore:
+      - ''
+      - '&f▪ Precio: &6%price%&f'
+      - ''
+      - '&cNo puedes ofertar por falta de dinero!'

@@ -1,0 +1,18 @@
+Title: '&f⻔⻔⻔⻔⻔⻔⻔⻔'
+Size: 54
+
+Content: {}
+
+Rewards:
+  main:
+    Start_Action: AUTO
+    Start_Chance: 100.0
+    Start_Delay: 1
+    Roll_Times: 40
+    Roll_Tick_Interval: 1
+    Roll_Slowdown_Every: 8
+    Roll_Slowdown_Ticks: 2
+    Slots: '28,29,30,31,32,33,34'
+    Slots_Mode: INHERITANCE
+    Win_Slots: '31'
+
